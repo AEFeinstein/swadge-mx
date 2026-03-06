@@ -565,7 +565,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -607,6 +607,24 @@
           "group_by": false,
           "label": "Cost100",
           "name": "Cost100",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "User Guide",
+          "name": "User Guide",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cost@2500",
+          "name": "Cost@2500",
           "show": false
         }
       ],
