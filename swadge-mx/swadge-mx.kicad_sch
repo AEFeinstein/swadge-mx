@@ -9659,10 +9659,10 @@
 		)
 		(uuid "49f35244-8135-405f-b8a0-114d21b2f44e")
 	)
-	(text_box "45kΩ and 10kΩ regulate the output to 3.3V:\n3.3 = 0.6 * (1 + (45kΩ / 10kΩ))"
+	(text_box "51.1kΩ and 11.5kΩ regulate the output to 3.266V:\n3.266 = 0.6 * (1 + (51.1kΩ / 11.5kΩ))\nThese are the best standard resistor values."
 		(exclude_from_sim no)
-		(at 153.67 222.25 0)
-		(size 45.72 6.35)
+		(at 147.32 222.25 0)
+		(size 52.07 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -9806,7 +9806,7 @@
 		)
 		(uuid "e058becd-7fa6-48ed-999a-f7ae92cac92a")
 	)
-	(text_box "CE connected to GND to enable charging\nTD connected to GND to enable charger termination\nTMR unconnected for default values\nTS is connected to 10kΩ because there is no NTC thermistor\n\nEN1 and EN2 set for 500mA charging\nILIM is also set for 500mA charging: 0.5A = 1567.5AΩ / 3135Ω\nISET is also set for 500mA charging: 0.5A = 890AΩ / 1780Ω"
+	(text_box "CE connected to GND to enable charging\nTD connected to GND to enable charger termination\nTMR unconnected for default values\nTS is connected to 10kΩ because there is no NTC thermistor\n\nEN1 and EN2 set for 500mA charging\nILIM is set for 496mA charging: 0.496A = 1567.5AΩ / 3160Ω\nISET is set for 500mA charging: 0.5A = 890AΩ / 1780Ω"
 		(exclude_from_sim no)
 		(at 74.93 222.25 0)
 		(size 66.04 17.78)
@@ -9828,12 +9828,6 @@
 		(uuid "e37e1989-c879-48d6-8a60-967a7a529feb")
 	)
 	(junction
-		(at 158.75 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "076c245e-762f-45cb-afde-7c9318014a99")
-	)
-	(junction
 		(at 281.94 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9850,6 +9844,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f186056-38f5-4d9a-a586-383550f9aebd")
+	)
+	(junction
+		(at 157.48 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f9fa3fe-adc6-4416-b4b6-e5df77716ba8")
 	)
 	(junction
 		(at 284.48 120.65)
@@ -10110,12 +10110,6 @@
 		(uuid "8a07bd19-fc50-429e-8cac-0654d184dc7a")
 	)
 	(junction
-		(at 148.59 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8da327bb-b04d-479e-bf66-08425b8bdd0e")
-	)
-	(junction
 		(at 74.93 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10234,6 +10228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1bde8c7-a52e-4221-96c8-355f406b7b26")
+	)
+	(junction
+		(at 147.32 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a00a8d-05c5-45f3-ab12-0bb62f69ea2e")
 	)
 	(junction
 		(at 316.23 113.03)
@@ -10380,7 +10380,7 @@
 		(uuid "5620f8a8-228b-4d11-af64-9a54b24e18d1")
 	)
 	(no_connect
-		(at 143.51 194.31)
+		(at 142.24 194.31)
 		(uuid "5d193611-bbf3-473f-933e-1c6742b4855c")
 	)
 	(no_connect
@@ -11455,7 +11455,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 189.23) (xy 143.51 189.23)
+			(xy 137.16 189.23) (xy 142.24 189.23)
 		)
 		(stroke
 			(width 0)
@@ -11715,7 +11715,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 200.66) (xy 172.72 200.66)
+			(xy 165.1 200.66) (xy 172.72 200.66)
 		)
 		(stroke
 			(width 0)
@@ -12155,6 +12155,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 191.77) (xy 175.26 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5e6c2c-d4ed-45b4-a7a4-75468ac8eb3a")
+	)
+	(wire
+		(pts
 			(xy 198.12 200.66) (xy 191.77 200.66)
 		)
 		(stroke
@@ -12375,7 +12385,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 201.93) (xy 148.59 201.93)
+			(xy 146.05 201.93) (xy 147.32 201.93)
 		)
 		(stroke
 			(width 0)
@@ -12455,7 +12465,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 191.77) (xy 158.75 191.77)
+			(xy 152.4 191.77) (xy 157.48 191.77)
 		)
 		(stroke
 			(width 0)
@@ -12745,16 +12755,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 191.77) (xy 175.26 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbec67a0-8dab-4e92-89c0-34513249eafd")
-	)
-	(wire
-		(pts
 			(xy 265.43 49.53) (xy 265.43 44.45)
 		)
 		(stroke
@@ -12855,7 +12855,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 193.04) (xy 172.72 193.04)
+			(xy 165.1 193.04) (xy 172.72 193.04)
 		)
 		(stroke
 			(width 0)
@@ -13245,16 +13245,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 201.93) (xy 148.59 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1af027a-2df0-42e1-a31b-d790a1c20201")
-	)
-	(wire
-		(pts
 			(xy 281.94 34.29) (xy 281.94 38.1)
 		)
 		(stroke
@@ -13282,6 +13272,16 @@
 			(type default)
 		)
 		(uuid "e409b47e-bdf0-4989-a0e4-f4c10f86dfee")
+	)
+	(wire
+		(pts
+			(xy 147.32 201.93) (xy 148.59 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e751ffa2-18b8-4d03-9209-309d9a75d8fa")
 	)
 	(wire
 		(pts
@@ -13445,7 +13445,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 201.93) (xy 148.59 203.2)
+			(xy 147.32 201.93) (xy 147.32 203.2)
 		)
 		(stroke
 			(width 0)
@@ -17744,7 +17744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23140"
+		(property "LCSC" "C108661"
 			(at 208.28 189.23 0)
 			(effects
 				(font
@@ -18226,7 +18226,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2906982"
 			(at 257.81 135.89 0)
 			(effects
 				(font
@@ -18338,7 +18338,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23186"
+		(property "LCSC" "C2907044"
 			(at 138.43 134.62 0)
 			(effects
 				(font
@@ -18534,7 +18534,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C159801"
+		(property "LCSC" "C59461"
 			(at 341.63 120.65 0)
 			(effects
 				(font
@@ -18637,7 +18637,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23140"
+		(property "LCSC" "C108661"
 			(at 52.07 179.07 90)
 			(effects
 				(font
@@ -18986,7 +18986,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282519"
+		(property "LCSC" "C14663"
 			(at 326.39 128.27 0)
 			(effects
 				(font
@@ -19267,7 +19267,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23186"
+		(property "LCSC" "C2907044"
 			(at 17.78 207.01 90)
 			(effects
 				(font
@@ -19359,6 +19359,15 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 129.54 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -19579,7 +19588,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2906982"
 			(at 118.11 195.58 90)
 			(effects
 				(font
@@ -19749,7 +19758,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 208.28 154.94 0)
 			(effects
 				(font
@@ -20577,7 +20586,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 259.08 29.21 90)
 			(effects
 				(font
@@ -21065,7 +21074,7 @@
 				)
 			)
 		)
-		(property "Value" "70Ω"
+		(property "Value" "75Ω"
 			(at 127 215.9 90)
 			(effects
 				(font
@@ -21114,6 +21123,15 @@
 			(effects
 				(font
 					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907068"
+			(at 124.46 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -21918,7 +21936,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23186"
+		(property "LCSC" "C2907044"
 			(at 17.78 186.69 90)
 			(effects
 				(font
@@ -22146,7 +22164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 345.44 181.61 0)
 			(effects
 				(font
@@ -22432,7 +22450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23140"
+		(property "LCSC" "C108661"
 			(at 345.44 111.76 0)
 			(effects
 				(font
@@ -22484,7 +22502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "11.5kΩ"
 			(at 172.466 207.0099 0)
 			(effects
 				(font
@@ -22538,7 +22556,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2930057"
 			(at 172.72 204.47 0)
 			(effects
 				(font
@@ -22774,7 +22792,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 233.68 120.65 0)
 			(effects
 				(font
@@ -23076,7 +23094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 271.78 21.59 0)
 			(effects
 				(font
@@ -23102,7 +23120,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:GND")
-		(at 148.59 203.2 0)
+		(at 147.32 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23110,7 +23128,7 @@
 		(dnp no)
 		(uuid "6ee6c256-9816-4ee4-abef-9abd186e030b")
 		(property "Reference" "#PWR088"
-			(at 148.59 209.55 0)
+			(at 147.32 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23119,7 +23137,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 207.01 0)
+			(at 147.32 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23127,7 +23145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 203.2 0)
+			(at 147.32 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23136,7 +23154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 203.2 0)
+			(at 147.32 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23145,7 +23163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 203.2 0)
+			(at 147.32 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23246,7 +23264,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282519"
+		(property "LCSC" "C14663"
 			(at 299.72 124.46 0)
 			(effects
 				(font
@@ -23360,7 +23378,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282519"
+		(property "LCSC" "C14663"
 			(at 349.25 120.65 0)
 			(effects
 				(font
@@ -23463,6 +23481,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907005"
+			(at 278.13 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "71398758-1475-42aa-a926-45cf2cd051f6")
 		)
@@ -23495,7 +23522,7 @@
 				)
 			)
 		)
-		(property "Value" "1.780kΩ"
+		(property "Value" "1.78kΩ"
 			(at 90.17 208.28 90)
 			(effects
 				(font
@@ -23544,6 +23571,15 @@
 			(effects
 				(font
 					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22849"
+			(at 87.63 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -24066,7 +24102,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2907011"
+		(property "LCSC" "C4184"
 			(at 260.35 68.58 0)
 			(effects
 				(font
@@ -24180,7 +24216,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282519"
+		(property "LCSC" "C14663"
 			(at 292.1 124.46 0)
 			(effects
 				(font
@@ -24613,7 +24649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22μF"
 			(at 197.485 198.12 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24664,6 +24700,15 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 198.12 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -24756,7 +24801,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 231.14 68.58 0)
 			(effects
 				(font
@@ -24850,7 +24895,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23140"
+		(property "LCSC" "C108661"
 			(at 52.07 176.53 90)
 			(effects
 				(font
@@ -25216,7 +25261,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C159801"
+		(property "LCSC" "C59461"
 			(at 242.57 156.21 0)
 			(effects
 				(font
@@ -25890,7 +25935,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 21.59 36.83 0)
 			(effects
 				(font
@@ -25916,7 +25961,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SW_SPDT_1825232-1")
-		(at 148.59 191.77 0)
+		(at 147.32 191.77 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25925,7 +25970,7 @@
 		(dnp no)
 		(uuid "906edb8a-442a-4997-9e3f-99e81445e4ea")
 		(property "Reference" "SW9"
-			(at 148.59 185.42 0)
+			(at 147.32 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25933,7 +25978,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_1825232-1"
-			(at 148.59 182.372 0)
+			(at 148.59 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25941,7 +25986,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:1825232-1"
-			(at 148.59 175.26 0)
+			(at 147.32 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25950,7 +25995,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf"
-			(at 148.59 177.8 0)
+			(at 147.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25959,7 +26004,7 @@
 			)
 		)
 		(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
-			(at 148.59 191.77 0)
+			(at 147.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25968,7 +26013,7 @@
 			)
 		)
 		(property "Digikey" "A107673-ND"
-			(at 148.59 180.34 0)
+			(at 147.32 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25977,7 +26022,7 @@
 			)
 		)
 		(property "Cost100" "45"
-			(at 148.59 172.72 0)
+			(at 147.32 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25986,7 +26031,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 148.59 191.77 0)
+			(at 147.32 191.77 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -25995,7 +26040,7 @@
 			)
 		)
 		(property "Notes" "Use SPDT slide switch. Similar to 1825232-1"
-			(at 148.59 182.88 0)
+			(at 147.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26004,7 +26049,7 @@
 			)
 		)
 		(property "LCSC" "C393937"
-			(at 148.59 191.77 0)
+			(at 147.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26013,7 +26058,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0123"
-			(at 148.59 191.77 0)
+			(at 147.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26307,7 +26352,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2906982"
 			(at 217.17 160.02 0)
 			(effects
 				(font
@@ -26784,7 +26829,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282519"
+		(property "LCSC" "C14663"
 			(at 68.58 22.86 0)
 			(effects
 				(font
@@ -26880,7 +26925,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 92.71 172.72 0)
 			(effects
 				(font
@@ -27232,7 +27277,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 259.08 49.53 90)
 			(effects
 				(font
@@ -27756,7 +27801,7 @@
 				)
 			)
 		)
-		(property "Value" "96Ω"
+		(property "Value" "100Ω"
 			(at 116.84 215.9 90)
 			(effects
 				(font
@@ -27805,6 +27850,15 @@
 			(effects
 				(font
 					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906981"
+			(at 114.3 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -27974,7 +28028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C159801"
+		(property "LCSC" "C59461"
 			(at 77.47 22.86 0)
 			(effects
 				(font
@@ -28017,7 +28071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "45kΩ"
+		(property "Value" "51.1kΩ"
 			(at 172.466 199.3899 0)
 			(effects
 				(font
@@ -28067,6 +28121,15 @@
 			(effects
 				(font
 					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2933234"
+			(at 172.72 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -28270,7 +28333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 242.57 31.75 0)
 			(effects
 				(font
@@ -28364,6 +28427,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907014"
+			(at 264.16 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4604f3ba-8032-4308-8b25-4ba287535790")
 		)
@@ -28451,7 +28523,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282519"
+		(property "LCSC" "C14663"
 			(at 236.22 31.75 0)
 			(effects
 				(font
@@ -28613,7 +28685,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 259.08 34.29 90)
 			(effects
 				(font
@@ -28703,6 +28775,15 @@
 			(effects
 				(font
 					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907005"
+			(at 278.13 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -30293,7 +30374,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 259.08 54.61 90)
 			(effects
 				(font
@@ -30502,7 +30583,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:C")
-		(at 166.37 196.85 0)
+		(at 165.1 196.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30511,7 +30592,7 @@
 		(dnp no)
 		(uuid "c5f72c2c-01bb-48ba-a68d-3c729041d221")
 		(property "Reference" "C34"
-			(at 165.735 194.31 0)
+			(at 164.465 194.31 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -30521,7 +30602,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 165.735 199.39 0)
+			(at 164.465 199.39 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -30531,7 +30612,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 165.4048 200.66 0)
+			(at 164.1348 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30540,7 +30621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 196.85 0)
+			(at 165.1 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30549,7 +30630,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 196.85 0)
+			(at 165.1 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30558,7 +30639,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 163.195 191.77 0)
+			(at 161.925 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30567,10 +30648,19 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 166.37 196.85 0)
+			(at 165.1 196.85 0)
 			(effects
 				(font
 					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1663"
+			(at 165.1 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -30662,7 +30752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 264.16 181.61 0)
 			(effects
 				(font
@@ -30758,7 +30848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 223.52 181.61 0)
 			(effects
 				(font
@@ -31137,7 +31227,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2906982"
 			(at 332.74 153.67 0)
 			(effects
 				(font
@@ -31163,7 +31253,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:GND")
-		(at 158.75 199.39 0)
+		(at 157.48 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31171,7 +31261,7 @@
 		(dnp no)
 		(uuid "cec2707b-d758-44d2-a4e0-ff81a124ac13")
 		(property "Reference" "#PWR077"
-			(at 158.75 205.74 0)
+			(at 157.48 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31180,7 +31270,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 203.2 0)
+			(at 157.48 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31188,7 +31278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 199.39 0)
+			(at 157.48 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31197,7 +31287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 199.39 0)
+			(at 157.48 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31206,7 +31296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 199.39 0)
+			(at 157.48 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31308,7 +31398,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282519"
+		(property "LCSC" "C14663"
 			(at 215.9 124.46 0)
 			(effects
 				(font
@@ -31476,7 +31566,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:C")
-		(at 158.75 195.58 0)
+		(at 157.48 195.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31485,7 +31575,7 @@
 		(dnp no)
 		(uuid "d1be2e71-e6d4-434d-8f96-9b5b2b44dfd0")
 		(property "Reference" "C32"
-			(at 158.115 193.04 0)
+			(at 156.845 193.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -31495,7 +31585,7 @@
 			)
 		)
 		(property "Value" "22μF"
-			(at 158.115 198.12 0)
+			(at 156.845 198.12 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -31505,7 +31595,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 157.7848 199.39 0)
+			(at 156.5148 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31514,7 +31604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 195.58 0)
+			(at 157.48 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31523,7 +31613,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 158.75 195.58 0)
+			(at 157.48 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31532,7 +31622,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 155.575 190.5 0)
+			(at 154.305 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31541,7 +31631,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 158.75 195.58 0)
+			(at 157.48 195.58 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -31549,8 +31639,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C159801"
-			(at 158.75 195.58 0)
+		(property "LCSC" "C59461"
+			(at 157.48 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32117,7 +32207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2906982"
 			(at 21.59 29.21 0)
 			(effects
 				(font
@@ -32211,6 +32301,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22787"
+			(at 274.32 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfee565d-bdc0-43ed-a289-9b6ebe3046f8")
 		)
@@ -32299,7 +32398,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 236.22 68.58 0)
 			(effects
 				(font
@@ -32470,7 +32569,7 @@
 				)
 			)
 		)
-		(property "Value" "3.135kΩ"
+		(property "Value" "3.16kΩ"
 			(at 82.55 205.74 90)
 			(effects
 				(font
@@ -32519,6 +32618,15 @@
 			(effects
 				(font
 					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2930087"
+			(at 80.01 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -32610,7 +32718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 257.81 86.36 0)
 			(effects
 				(font
@@ -33250,7 +33358,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 304.8 181.61 0)
 			(effects
 				(font
@@ -33477,7 +33585,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C2906982"
 			(at 345.44 153.67 0)
 			(effects
 				(font
@@ -33573,7 +33681,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282519"
+		(property "LCSC" "C14663"
 			(at 229.87 31.75 0)
 			(effects
 				(font
@@ -33728,6 +33836,15 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -34399,7 +34516,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C29936"
 			(at 241.3 68.58 0)
 			(effects
 				(font
