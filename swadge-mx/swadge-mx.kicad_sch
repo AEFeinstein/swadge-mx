@@ -371,6 +371,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Swadge_Parts:AW32001ECSR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AW32001ECSR"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Swadge_Parts:WLCSP-9_L1.7-W1.7-R3-C3-P0.50-TL"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5125890.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Lithium Battery I2C 500mA WLCSP-9-B(1.68x1.68) Battery Management RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5125890"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AW32001ECSR_0_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 7.62)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "SYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "NTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Swadge_Parts:B3FS-4002P"
 			(pin_names
 				(offset 0.762)
@@ -7800,6 +8044,263 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Swadge_Parts:Thermistor_NTC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor_NTC"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_NTC_0_1"
+				(arc
+					(start -3.175 2.413)
+					(mid -3.0506 2.3165)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 2.794)
+					(mid -2.434 2.5608)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Swadge_Parts:Touch-Circle-6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9154,6 +9655,18 @@
 		)
 	)
 	(rectangle
+		(start 69.85 255.27)
+		(end 86.36 259.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0269ce6b-fc6d-4771-ade8-994edd61fbb6)
+	)
+	(rectangle
 		(start 203.2 12.7)
 		(end 307.34 104.14)
 		(stroke
@@ -9441,6 +9954,18 @@
 		(uuid aa2dbeeb-b605-4cc6-b19c-f43247b56c77)
 	)
 	(rectangle
+		(start 69.85 255.27)
+		(end 154.94 297.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b9dc50c4-5c7d-440d-b245-735f67b461e8)
+	)
+	(rectangle
 		(start 203.2 139.7)
 		(end 218.44 143.51)
 		(stroke
@@ -9521,6 +10046,16 @@
 			(justify left top)
 		)
 		(uuid "2c31f535-e02a-42d2-be24-c7274e343c92")
+	)
+	(text "Alternative BMS"
+		(exclude_from_sim no)
+		(at 77.978 257.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39a87d6f-83c0-4014-b745-2a1b99ba96fd")
 	)
 	(text "ESP32-S3"
 		(exclude_from_sim no)
@@ -9828,6 +10363,12 @@
 		(uuid "e37e1989-c879-48d6-8a60-967a7a529feb")
 	)
 	(junction
+		(at 99.06 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ae5d37-06af-4868-ace1-558ad6a6bc93")
+	)
+	(junction
 		(at 281.94 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9838,6 +10379,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08f81101-4286-4a3f-958f-9c4bf31ba757")
+	)
+	(junction
+		(at 99.06 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c13201e-895f-4ef0-a5f9-b219b9887378")
 	)
 	(junction
 		(at 38.1 187.96)
@@ -9930,6 +10477,18 @@
 		(uuid "2a591992-0905-48df-a8d9-119c92f7e0ae")
 	)
 	(junction
+		(at 138.43 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d7b069c-0492-49e8-8965-2ea4fb3c625c")
+	)
+	(junction
+		(at 85.09 276.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f1236cc-9534-47a4-949b-718b49665741")
+	)
+	(junction
 		(at 241.3 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9984,6 +10543,18 @@
 		(uuid "40bc1d9a-fa73-4f36-8475-d3a2d395a465")
 	)
 	(junction
+		(at 144.78 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42ccc3f0-e9ba-4885-ac35-8cfab87aa9f2")
+	)
+	(junction
+		(at 106.68 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43306c9a-e140-4371-a697-32829dc19766")
+	)
+	(junction
 		(at 274.32 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10000,6 +10571,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c20b6ca-9a4a-4108-954c-af5224488ab2")
+	)
+	(junction
+		(at 110.49 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50763d02-4754-42fb-becb-90b47407cb24")
 	)
 	(junction
 		(at 281.94 120.65)
@@ -10056,6 +10633,12 @@
 		(uuid "6c20aa34-5a64-4c2c-bc83-e5dc47b5ac3c")
 	)
 	(junction
+		(at 129.54 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ea4c43e-50eb-42d5-9a46-17686b6e57ba")
+	)
+	(junction
 		(at 182.88 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10104,6 +10687,12 @@
 		(uuid "82223d2f-abec-49fd-b148-58ebba09393d")
 	)
 	(junction
+		(at 80.01 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87fc684b-e6c1-4954-b129-38e59bcfb7d8")
+	)
+	(junction
 		(at 215.9 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10146,6 +10735,12 @@
 		(uuid "9269e2c1-82a1-44fb-8b85-0e5715bce9e0")
 	)
 	(junction
+		(at 130.81 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92fc2812-32ef-47ae-b1c3-504ddbf1defd")
+	)
+	(junction
 		(at 256.54 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10186,6 +10781,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ffbde6b-e709-4d65-a7d7-f9aaf3cdf4b8")
+	)
+	(junction
+		(at 90.17 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3373f1e-9bb4-4a2f-bdf5-7b6f4967eb02")
 	)
 	(junction
 		(at 243.84 72.39)
@@ -10236,6 +10837,12 @@
 		(uuid "b4a00a8d-05c5-45f3-ab12-0bb62f69ea2e")
 	)
 	(junction
+		(at 106.68 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b3663c-5bea-4313-84fe-f847463ad8b6")
+	)
+	(junction
 		(at 316.23 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10246,6 +10853,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b79a88db-f2b5-47f9-b357-c64da6a16632")
+	)
+	(junction
+		(at 85.09 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8217555-3566-428f-8f41-102647c474cb")
 	)
 	(junction
 		(at 208.28 151.13)
@@ -10342,6 +10955,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f61af1a0-1746-4032-8e16-cee9fe613089")
+	)
+	(junction
+		(at 121.92 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6b3f1a3-60d2-4295-9de2-a7938173bdc4")
 	)
 	(junction
 		(at 81.28 16.51)
@@ -10545,6 +11164,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 283.21) (xy 110.49 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a5ab4f-0d4d-4cef-b7e9-7c526894defd")
+	)
+	(wire
+		(pts
 			(xy 172.72 22.86) (xy 172.72 27.94)
 		)
 		(stroke
@@ -10562,6 +11191,16 @@
 			(type default)
 		)
 		(uuid "09c9a1ed-5ebc-4b34-bbda-2cc5f240f9a0")
+	)
+	(wire
+		(pts
+			(xy 121.92 290.83) (xy 110.49 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a152856-514e-48f5-80d0-6e0d09bece3a")
 	)
 	(wire
 		(pts
@@ -10625,6 +11264,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 267.97) (xy 110.49 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2752c5-01a2-4924-b9f9-aa60d68a1e64")
+	)
+	(wire
+		(pts
 			(xy 241.3 72.39) (xy 243.84 72.39)
 		)
 		(stroke
@@ -10655,6 +11304,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 273.05) (xy 106.68 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d89e5f2-8977-44c7-ae0a-c358db14aa7e")
+	)
+	(wire
+		(pts
 			(xy 242.57 151.13) (xy 262.89 151.13)
 		)
 		(stroke
@@ -10662,6 +11321,26 @@
 			(type default)
 		)
 		(uuid "0f91f9db-16ad-4d94-81b7-5b5165c633ef")
+	)
+	(wire
+		(pts
+			(xy 111.76 267.97) (xy 110.49 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1016ed03-d736-4f2a-96fc-a7f58f4ccd96")
+	)
+	(wire
+		(pts
+			(xy 144.78 261.62) (xy 153.67 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116cdb51-f1d2-40bf-90da-db8355e1dc3d")
 	)
 	(wire
 		(pts
@@ -10682,6 +11361,16 @@
 			(type default)
 		)
 		(uuid "132b1828-e651-4681-a778-94714a1a3b8c")
+	)
+	(wire
+		(pts
+			(xy 99.06 279.4) (xy 106.68 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139e534c-7749-4dc5-a4ee-e1ff257efde4")
 	)
 	(wire
 		(pts
@@ -10745,6 +11434,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 261.62) (xy 144.78 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f9bd68-c18e-4701-becc-f0a494a25a58")
+	)
+	(wire
+		(pts
 			(xy 215.9 119.38) (xy 215.9 120.65)
 		)
 		(stroke
@@ -10772,6 +11471,16 @@
 			(type default)
 		)
 		(uuid "198024a6-e0c9-4a25-8467-a42a8e15370a")
+	)
+	(wire
+		(pts
+			(xy 99.06 290.83) (xy 106.68 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1a1bbb-3a5e-47ad-9232-e99387854c4b")
 	)
 	(wire
 		(pts
@@ -11065,6 +11774,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 287.02) (xy 99.06 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2a6db6-0657-4a5a-916f-0e2de8832c0b")
+	)
+	(wire
+		(pts
 			(xy 326.39 123.19) (xy 326.39 124.46)
 		)
 		(stroke
@@ -11285,6 +12004,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 287.02) (xy 85.09 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e1214d-2240-40a9-a979-f100aec8e65c")
+	)
+	(wire
+		(pts
 			(xy 236.22 63.5) (xy 236.22 64.77)
 		)
 		(stroke
@@ -11375,6 +12104,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 290.83) (xy 129.54 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491d8e6b-9367-48c2-852d-d441e2604bbd")
+	)
+	(wire
+		(pts
 			(xy 241.3 63.5) (xy 243.84 63.5)
 		)
 		(stroke
@@ -11422,6 +12161,16 @@
 			(type default)
 		)
 		(uuid "4d2e615d-d916-484f-b29d-5279d6fb6cd4")
+	)
+	(wire
+		(pts
+			(xy 129.54 266.7) (xy 130.81 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbed620-86a9-4430-8ba4-9c83a8d2d167")
 	)
 	(wire
 		(pts
@@ -11645,6 +12394,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 290.83) (xy 85.09 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61defb3a-a7b5-41a7-806c-63582326bc90")
+	)
+	(wire
+		(pts
 			(xy 81.28 175.26) (xy 81.28 168.91)
 		)
 		(stroke
@@ -11662,6 +12421,16 @@
 			(type default)
 		)
 		(uuid "62c8e6c5-1b49-4da1-88de-b2ce29782987")
+	)
+	(wire
+		(pts
+			(xy 71.12 265.43) (xy 80.01 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f9deff-5907-4274-aa0a-f810cffb415a")
 	)
 	(wire
 		(pts
@@ -11855,6 +12624,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 270.51) (xy 111.76 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e91d7c-e347-4434-b725-8ed9fc26b435")
+	)
+	(wire
+		(pts
 			(xy 267.97 49.53) (xy 267.97 59.69)
 		)
 		(stroke
@@ -11915,6 +12694,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 290.83) (xy 90.17 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a746e6-0955-4f23-9249-7be8d2c63d26")
+	)
+	(wire
+		(pts
 			(xy 172.72 186.69) (xy 198.12 186.69)
 		)
 		(stroke
@@ -11922,6 +12711,16 @@
 			(type default)
 		)
 		(uuid "76ce2c29-6f5a-4421-8dbb-2cbfd4df6810")
+	)
+	(wire
+		(pts
+			(xy 106.68 290.83) (xy 110.49 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781f90c8-f71e-46b5-b383-219ccf97f20d")
 	)
 	(wire
 		(pts
@@ -11995,6 +12794,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 275.59) (xy 111.76 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8002ede4-0d97-40f4-a33b-f29b8983fea8")
+	)
+	(wire
+		(pts
 			(xy 160.02 85.09) (xy 160.02 87.63)
 		)
 		(stroke
@@ -12032,6 +12841,16 @@
 			(type default)
 		)
 		(uuid "80e3c217-d38b-4ebb-911d-2b76e3199360")
+	)
+	(wire
+		(pts
+			(xy 106.68 287.02) (xy 106.68 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81023231-4bb2-4aa1-b78b-5063e1931108")
 	)
 	(wire
 		(pts
@@ -12075,6 +12894,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 264.16) (xy 130.81 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8571e6f2-5e95-4b5a-99a1-842c7051214f")
+	)
+	(wire
+		(pts
 			(xy 215.9 177.8) (xy 223.52 177.8)
 		)
 		(stroke
@@ -12102,6 +12931,16 @@
 			(type default)
 		)
 		(uuid "86f471c3-ad81-4cbb-9fb8-f3ce2ea836e7")
+	)
+	(wire
+		(pts
+			(xy 80.01 265.43) (xy 111.76 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fed5e0-8291-4560-8984-467d222c6c82")
 	)
 	(wire
 		(pts
@@ -12215,6 +13054,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 290.83) (xy 138.43 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e19da0c-ef6e-4db9-b60b-87da9f7da7d2")
+	)
+	(wire
+		(pts
 			(xy 101.6 213.36) (xy 87.63 213.36)
 		)
 		(stroke
@@ -12232,6 +13081,16 @@
 			(type default)
 		)
 		(uuid "8f3304f2-6137-489a-9fd9-108e968a7ef6")
+	)
+	(wire
+		(pts
+			(xy 144.78 281.94) (xy 144.78 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f66e94d-5d56-4392-a7b4-9233d929f684")
 	)
 	(wire
 		(pts
@@ -12395,6 +13254,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 269.24) (xy 134.62 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b52904-f8df-4b4d-9fc6-867416211c32")
+	)
+	(wire
+		(pts
+			(xy 93.98 271.78) (xy 99.06 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c78d76-f7ab-4c5c-9071-821f41441ee3")
+	)
+	(wire
+		(pts
 			(xy 260.35 64.77) (xy 267.97 64.77)
 		)
 		(stroke
@@ -12495,6 +13374,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 274.32) (xy 138.43 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2403e47-0d19-423a-98c7-84b976d1e450")
+	)
+	(wire
+		(pts
 			(xy 31.75 187.96) (xy 31.75 190.5)
 		)
 		(stroke
@@ -12512,6 +13401,16 @@
 			(type default)
 		)
 		(uuid "a424e992-299e-4b93-8c13-4752b3927751")
+	)
+	(wire
+		(pts
+			(xy 80.01 273.05) (xy 80.01 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6818df2-25ca-47f8-99e6-f1fd6d4d0b1f")
 	)
 	(wire
 		(pts
@@ -12635,6 +13534,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 266.7) (xy 138.43 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b029b1ed-a246-42d2-b7fa-685ca2aab185")
+	)
+	(wire
+		(pts
+			(xy 90.17 278.13) (xy 90.17 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b038e5e2-8410-44a8-a100-a0770b3729da")
+	)
+	(wire
+		(pts
 			(xy 242.57 160.02) (xy 242.57 161.29)
 		)
 		(stroke
@@ -12652,6 +13571,16 @@
 			(type default)
 		)
 		(uuid "b20c2f67-51e9-4732-9f71-63cc05240a58")
+	)
+	(wire
+		(pts
+			(xy 111.76 273.05) (xy 106.68 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e7de26-98f9-4286-b461-dc2acf89a16d")
 	)
 	(wire
 		(pts
@@ -12835,6 +13764,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 270.51) (xy 85.09 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0012fea-8a43-43dd-8dbf-52390e481995")
+	)
+	(wire
+		(pts
 			(xy 264.16 193.04) (xy 269.24 193.04)
 		)
 		(stroke
@@ -12895,6 +13834,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 271.78) (xy 132.08 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ab4971-2955-409e-85cf-5961493d8591")
+	)
+	(wire
+		(pts
 			(xy 160.02 41.91) (xy 160.02 46.99)
 		)
 		(stroke
@@ -12922,6 +13871,16 @@
 			(type default)
 		)
 		(uuid "c61f62e8-cb2c-426b-bb1c-2fa2e5dc07b9")
+	)
+	(wire
+		(pts
+			(xy 110.49 261.62) (xy 144.78 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64041d3-5c4e-4859-8921-9ca4ccaa9917")
 	)
 	(wire
 		(pts
@@ -12975,6 +13934,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 290.83) (xy 121.92 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf8638f-c523-4bf2-8336-f8e4230c5897")
+	)
+	(wire
+		(pts
 			(xy 273.05 151.13) (xy 278.13 151.13)
 		)
 		(stroke
@@ -13022,6 +13991,16 @@
 			(type default)
 		)
 		(uuid "cef94102-f62d-4225-b26c-01690db100b7")
+	)
+	(wire
+		(pts
+			(xy 129.54 274.32) (xy 129.54 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9eee81-c88e-4dc5-bc1b-410e045a1e3d")
 	)
 	(wire
 		(pts
@@ -13132,6 +14111,16 @@
 			(type default)
 		)
 		(uuid "d9d11324-7619-4390-a797-29870ba937c3")
+	)
+	(wire
+		(pts
+			(xy 90.17 285.75) (xy 90.17 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6dba70-9da5-475d-a030-ad41a4b2ba02")
 	)
 	(wire
 		(pts
@@ -13525,6 +14514,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 290.83) (xy 99.06 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9072fb-b064-4c22-9de5-201ab9dcfc2f")
+	)
+	(wire
+		(pts
 			(xy 316.23 115.57) (xy 316.23 113.03)
 		)
 		(stroke
@@ -13542,6 +14541,16 @@
 			(type default)
 		)
 		(uuid "ff331ca2-f503-4680-a241-c6e241ebc421")
+	)
+	(wire
+		(pts
+			(xy 90.17 276.86) (xy 85.09 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff36523b-8f91-4f88-a501-cf704aa3d464")
 	)
 	(wire
 		(pts
@@ -14738,6 +15747,28 @@
 			)
 		)
 	)
+	(global_label "I2C_SCK"
+		(shape input)
+		(at 134.62 269.24 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "380932f9-f0c9-4f7b-809e-e63734461d5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 280.0266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VREG_IN"
 		(shape input)
 		(at 166.37 191.77 90)
@@ -15213,6 +16244,28 @@
 		(uuid "5b28565c-245f-40dc-aed4-475d60009122")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.8472 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AW32_VDD"
+		(shape input)
+		(at 93.98 271.78 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e549f4c-7994-4022-85c7-b0e6100a8c68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 284.3204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16300,6 +17353,28 @@
 			)
 		)
 	)
+	(global_label "AW32_VDD"
+		(shape input)
+		(at 130.81 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e01b389d-3c72-4401-82af-5b66f1c86dc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.3504 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TFT_RESET"
 		(shape input)
 		(at 38.1 53.34 180)
@@ -16586,6 +17661,28 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 132.08 271.78 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd12d0af-e9ea-467b-b167-05eee5d72036")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 282.3852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CH_C5"
 		(shape input)
 		(at 125.73 146.05 0)
@@ -16661,7 +17758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00ce1b88-573e-4ea8-8400-04b4d370e175")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR081"
 			(at 256.54 207.01 0)
 			(effects
 				(font
@@ -16711,7 +17808,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR082")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -16726,7 +17823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "012fa122-b338-4e53-85da-e28007dfb2ed")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 278.13 157.48 0)
 			(effects
 				(font
@@ -16776,7 +17873,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -16903,7 +18000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01536f3a-0f85-4289-98dd-e9644cfd0093")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 337.82 181.61 0)
 			(effects
 				(font
@@ -16953,7 +18050,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -16968,7 +18065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01fd05c8-9a31-4a88-a520-a0542dd4a128")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 198.12 190.5 0)
 			(effects
 				(font
@@ -17018,7 +18115,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -17099,7 +18196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ce6385-1c0e-4b2e-9e11-7ec8374bfe49")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 76.2 179.07 0)
 			(effects
 				(font
@@ -17149,7 +18246,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -17295,7 +18392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03c91e9e-934d-4192-a23d-80fb3b59530f")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR078"
 			(at 198.12 207.01 0)
 			(effects
 				(font
@@ -17345,7 +18442,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR079")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -17552,7 +18649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ca6b800-cbbf-40c2-9292-b27a750a6bca")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 242.57 167.64 0)
 			(effects
 				(font
@@ -17602,7 +18699,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17777,7 +18874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "144ef61e-c333-4385-9793-3310cb7d1ef7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 73.66 33.02 0)
 			(effects
 				(font
@@ -17827,7 +18924,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -17907,7 +19004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17e9ed28-c05b-4825-b15e-4c1c85a39cdb")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 138.43 134.62 0)
 			(effects
 				(font
@@ -17957,7 +19054,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -19621,7 +20718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2abe50d7-851e-4d3b-bccc-a152b1f1f90d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 345.44 153.67 0)
 			(effects
 				(font
@@ -19671,7 +20768,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -19792,6 +20889,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:GND")
+		(at 121.92 290.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "2f3baaf7-5270-48c8-a7d9-56608d3a96c9")
+		(property "Reference" "#PWR093"
+			(at 121.92 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 295.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3294ac5-1b06-4cac-9d75-d3faa9fe033c")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:Conn_02x05_Odd_Even")
 		(at 187.96 132.08 0)
 		(unit 1)
@@ -19901,7 +21063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30f33efc-948a-4f50-8908-8b3687a2009c")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 236.22 207.01 0)
 			(effects
 				(font
@@ -19951,7 +21113,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -20067,7 +21229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3340d5dd-fe62-4c58-b4aa-eb8dc115fb06")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 228.6 165.1 0)
 			(effects
 				(font
@@ -20117,7 +21279,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -20197,7 +21359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "337b775a-1225-4ad2-b065-e1946083f98f")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 215.9 181.61 0)
 			(effects
 				(font
@@ -20247,7 +21409,75 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR057")
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:Thermistor_NTC")
+		(at 106.68 283.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "36d33263-3da1-47b2-a249-7438024c3737")
+		(property "Reference" "TH1"
+			(at 105.918 278.7014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 106.68 292.9254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 106.68 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c849a81c-cc23-44d7-b911-530f5bc67cae")
+		)
+		(pin "1"
+			(uuid "68c2c079-d891-47c1-b3f9-9aa82786ee74")
+		)
+		(instances
+			(project ""
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -20262,7 +21492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "371f33e3-12e7-41b2-abce-8d250b9d4221")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 331.47 138.43 0)
 			(effects
 				(font
@@ -20312,7 +21542,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -20392,7 +21622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38feac34-9e3d-4f83-a713-52f53406c789")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 229.87 130.81 0)
 			(effects
 				(font
@@ -20442,7 +21672,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -20508,6 +21738,83 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:BH-18650-1")
+		(at 85.09 281.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "3b7cc7b5-df43-4f99-aceb-e042787d9f28")
+		(property "Reference" "BT2"
+			(at 84.836 287.5279 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BH-18650-1"
+			(at 85.09 292.3539 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:BAT-TH_BH-18650-A1AJ005"
+			(at 77.47 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49118395.pdf"
+			(at 89.662 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery holder -10℃~+100℃ 18650 Through Hole Blade Type Power Connector Assemblies RoHS"
+			(at 91.694 282.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49118395"
+			(at 74.93 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6919123-4d9d-4116-8443-dcd6cdf0c45b")
+		)
+		(pin "2"
+			(uuid "b783a610-5d9b-4034-954b-b468979433fe")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -20740,7 +22047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e1fcb51-3761-4290-a503-829840059a10")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR083"
 			(at 297.18 207.01 0)
 			(effects
 				(font
@@ -20790,7 +22097,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR084")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -20805,7 +22112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "431e5d11-f3bc-43d4-ad4d-01007bb35c76")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR089"
 			(at 17.78 217.17 0)
 			(effects
 				(font
@@ -20855,7 +22162,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR090")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -20870,7 +22177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43b92a3f-692a-4caf-a813-58eb3ea9ce92")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 215.9 135.89 0)
 			(effects
 				(font
@@ -20920,7 +22227,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -20935,7 +22242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43c0715e-2d3f-41e7-88d7-61a5a84f7e03")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR068"
 			(at 304.8 191.77 0)
 			(effects
 				(font
@@ -20985,7 +22292,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR069")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -21001,7 +22308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43d3f2dc-e900-4738-ab4a-a57c120db759")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 273.05 44.45 0)
 			(effects
 				(font
@@ -21051,7 +22358,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -21160,7 +22467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "476b156f-42a6-4831-841b-ece10244cad2")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR084"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -21210,7 +22517,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR085")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -21225,7 +22532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49863eff-6b44-4818-bdf8-62f65c5fd56a")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR074"
 			(at 62.23 196.85 0)
 			(effects
 				(font
@@ -21275,7 +22582,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR075")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -21970,7 +23277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "563fd89a-cbb0-423b-9008-6e4de4cad04a")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR072"
 			(at 62.23 191.77 0)
 			(effects
 				(font
@@ -22020,7 +23327,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -22036,7 +23343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5699e4e1-0c30-4dd5-b0ca-182f4d2dfe48")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 208.28 165.1 0)
 			(effects
 				(font
@@ -22086,7 +23393,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -22183,6 +23490,198 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:R_US")
+		(at 110.49 279.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "5bcfe6af-15f7-403a-b9a2-0b067519971a")
+		(property "Reference" "R32"
+			(at 113.284 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 113.03 279.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
+			(at 109.474 279.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 279.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor US symbol"
+			(at 110.49 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "~"
+			(at 105.41 281.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 110.49 279.4 0)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906982"
+			(at 110.49 279.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "637fe61b-d8b2-4371-a419-1b90a26aee12")
+		)
+		(pin "2"
+			(uuid "9e645c32-4624-42ba-9b75-5e6250ba6455")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:AW32001ECSR")
+		(at 121.92 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5fb34abf-7473-462c-b225-9d8bd235b2e2")
+		(property "Reference" "U11"
+			(at 120.65 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AW32001ECSR"
+			(at 120.65 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:WLCSP-9_L1.7-W1.7-R3-C3-P0.50-TL"
+			(at 121.92 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5125890.pdf"
+			(at 121.92 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Lithium Battery I2C 500mA WLCSP-9-B(1.68x1.68) Battery Management RoHS"
+			(at 121.92 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5125890"
+			(at 121.92 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B2"
+			(uuid "e318efd8-f155-4836-837d-8e0385894d0b")
+		)
+		(pin "C2"
+			(uuid "9b481906-4735-48fe-9183-b97cad9c023c")
+		)
+		(pin "B3"
+			(uuid "1fba4512-119c-4ee9-a7a8-0ee0ce44520c")
+		)
+		(pin "B1"
+			(uuid "5c620da1-4ff5-4b84-908e-3933fde17bee")
+		)
+		(pin "C3"
+			(uuid "10876030-b7d4-4ba7-b207-404acd8ec02b")
+		)
+		(pin "A2"
+			(uuid "e2d4a287-109c-431a-b096-cf808a5d4e29")
+		)
+		(pin "A1"
+			(uuid "2cb0a4d3-335c-4096-88ed-4733ab776f38")
+		)
+		(pin "C1"
+			(uuid "587e6508-080a-4b5a-9e91-33ea9ebb1373")
+		)
+		(pin "A3"
+			(uuid "7ab2cb9b-2992-4f04-92ae-a11bb6ba59a0")
+		)
+		(instances
+			(project ""
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -22315,7 +23814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6075ca95-2e77-4615-9750-db01e6a690a6")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR075"
 			(at 83.82 196.85 0)
 			(effects
 				(font
@@ -22365,7 +23864,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR076")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -22589,7 +24088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "644cc00b-ebdb-4183-b0bb-73145a6e8b22")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR070"
 			(at 120.65 193.04 0)
 			(effects
 				(font
@@ -22639,7 +24138,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR071")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -23031,7 +24530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c5994dc-d1c2-41d5-9e32-e844ec2aa9b7")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 271.526 19.5579 0)
 			(effects
 				(font
@@ -23112,7 +24611,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -23127,7 +24626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ee6c256-9816-4ee4-abef-9abd186e030b")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR087"
 			(at 147.32 209.55 0)
 			(effects
 				(font
@@ -23177,7 +24676,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR088")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -23967,7 +25466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "741ee763-d0cd-4fd2-80d4-aece72430799")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 236.22 181.61 0)
 			(effects
 				(font
@@ -24017,7 +25516,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -24390,7 +25889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79b3b999-8e3f-4a52-818c-854037a0a9e9")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 208.28 153.67 0)
 			(effects
 				(font
@@ -24440,7 +25939,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -24573,7 +26072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7be7a753-d37c-4ad4-a564-dd528b16c845")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR077"
 			(at 134.62 207.01 0)
 			(effects
 				(font
@@ -24623,7 +26122,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR078")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -24723,6 +26222,100 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:C")
+		(at 90.17 281.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "7cdaa657-e384-47dd-84f1-2a9048123d08")
+		(property "Reference" "C38"
+			(at 87.884 284.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7μF"
+			(at 89.662 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
+			(at 91.1352 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "~"
+			(at 93.345 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 90.17 281.94 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 90.17 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa38ae5e-b188-4a06-a89f-1e757ac5e815")
+		)
+		(pin "2"
+			(uuid "2518fd6d-6c14-4a3e-9923-c368bd0bde04")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -24928,7 +26521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "800b9bce-bcfb-4d4e-88f9-74d1267a3998")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 256.54 181.61 0)
 			(effects
 				(font
@@ -24978,7 +26571,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -24993,7 +26586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "803f64c1-d875-4991-a31b-8d9485242d0d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 322.58 128.27 0)
 			(effects
 				(font
@@ -25043,7 +26636,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -25123,7 +26716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "829808b3-1355-4f07-b626-201771f8b0b0")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 143.51 160.02 0)
 			(effects
 				(font
@@ -25173,7 +26766,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -25611,7 +27204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c46bd96-8825-4059-897e-62b651a71de0")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR067"
 			(at 264.16 191.77 0)
 			(effects
 				(font
@@ -25661,7 +27254,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR068")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -25676,7 +27269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ed59b5e-3e3f-4ca0-86f4-ebffc1c839ee")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR073"
 			(at 17.78 196.85 0)
 			(effects
 				(font
@@ -25726,7 +27319,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR074")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -25741,7 +27334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f2d7e3d-1774-4e4d-afb1-f0920a91195e")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 341.63 130.81 0)
 			(effects
 				(font
@@ -25791,7 +27384,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -25806,7 +27399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fe33eb3-c258-4c76-b399-7b7f5e501986")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR065"
 			(at 25.4 186.69 0)
 			(effects
 				(font
@@ -25856,7 +27449,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR066")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -25872,7 +27465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "901438a1-1a1c-4e78-ab02-3e5c3f1f03d8")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 21.336 34.7979 0)
 			(effects
 				(font
@@ -25953,7 +27546,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -26099,7 +27692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "906fd32e-86cf-4c71-8f53-d7341644c029")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR088"
 			(at 172.72 214.63 0)
 			(effects
 				(font
@@ -26149,7 +27742,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR089")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -26394,7 +27987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92ce8c22-4720-495d-8354-44b23efd9e42")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 332.74 153.67 0)
 			(effects
 				(font
@@ -26444,7 +28037,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -26589,7 +28182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b3698fd-01f3-4f7b-8dd2-f33934edc472")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR085"
 			(at 337.82 207.01 0)
 			(effects
 				(font
@@ -26639,7 +28232,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR086")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -26654,7 +28247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c3b887e-4682-4c57-8104-7eeac4d12822")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 360.934 26.67 90)
 			(effects
 				(font
@@ -26751,7 +28344,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -26766,7 +28359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d23558f-5ec2-496a-82d6-6beda1d9fd28")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 68.834 20.8279 0)
 			(effects
 				(font
@@ -26847,7 +28440,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -26958,7 +28551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9faaa9ce-a489-42c3-ba5a-1c7356718e64")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR050"
 			(at 180.34 162.56 0)
 			(effects
 				(font
@@ -27008,7 +28601,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR033")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -27148,7 +28741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9febfa68-4e80-483a-b861-c55962402ccb")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 20.32 142.24 0)
 			(effects
 				(font
@@ -27198,7 +28791,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -27310,7 +28903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1d17d54-b54f-4452-b748-f6ec6464ed24")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR082"
 			(at 276.86 207.01 0)
 			(effects
 				(font
@@ -27360,7 +28953,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR083")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -27485,7 +29078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4976cde-37a9-40eb-a0d8-a8ee052ee743")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 83.82 115.57 0)
 			(effects
 				(font
@@ -27535,7 +29128,7 @@
 		(instances
 			(project ""
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -27957,6 +29550,194 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:R_US")
+		(at 99.06 283.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "a9405e86-357b-479a-888f-0702aa8e1e92")
+		(property "Reference" "R33"
+			(at 96.52 283.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ω"
+			(at 101.6 283.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
+			(at 98.044 282.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 283.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor US symbol"
+			(at 99.06 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "~"
+			(at 93.98 285.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 99.06 283.21 0)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906982"
+			(at 99.06 283.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2e8c459-fbd7-4b3b-a1e6-fd38fbffb182")
+		)
+		(pin "2"
+			(uuid "db725bb7-e9f6-49c6-8789-54ede1810ee6")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:R_US")
+		(at 99.06 275.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "aa314e12-1a58-4cae-88b4-4324dbb1fca1")
+		(property "Reference" "R31"
+			(at 96.52 275.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ω"
+			(at 101.6 275.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
+			(at 98.044 275.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 275.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor US symbol"
+			(at 99.06 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "~"
+			(at 93.98 278.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 99.06 275.59 0)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906982"
+			(at 99.06 275.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c332dd39-b919-4714-ae13-ceb7c32fc6f2")
+		)
+		(pin "2"
+			(uuid "1b4f9185-e523-46e3-a999-a48e20e3b90d")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:C")
 		(at 77.47 22.86 0)
 		(unit 1)
@@ -27965,7 +29746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acbddeef-8748-4da1-a532-7ce4bbb965da")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 77.724 20.8279 0)
 			(effects
 				(font
@@ -28046,7 +29827,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -28622,7 +30403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b19c2af1-8725-4c34-9495-5b65a91f762c")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 257.5559 32.512 90)
 			(effects
 				(font
@@ -28703,7 +30484,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -28813,7 +30594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b26d29b3-4ce6-49c9-80a9-a11605ba5468")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR064"
 			(at 120.65 182.88 0)
 			(effects
 				(font
@@ -28863,7 +30644,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR065")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -29140,7 +30921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a60253-87ad-4d37-a2dc-5482af23e159")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR091"
 			(at 132.08 223.52 0)
 			(effects
 				(font
@@ -29190,7 +30971,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR092")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -29205,7 +30986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3bb8dd7-1505-40af-a776-f90f01ac3d01")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 260.35 21.59 0)
 			(effects
 				(font
@@ -29255,7 +31036,102 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR02")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:C")
+		(at 144.78 278.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "b3d65660-23ab-473c-a2f3-8a387c1dac34")
+		(property "Reference" "C37"
+			(at 142.24 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7μF"
+			(at 141.732 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
+			(at 143.8148 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "~"
+			(at 141.605 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 144.78 278.13 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 144.78 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d5204c9-0029-487f-b298-99dd0471c3e1")
+		)
+		(pin "2"
+			(uuid "35a1a866-139c-4a7f-9e5d-7e683ebb177a")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -29270,7 +31146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3e1253b-cfd6-4b97-a785-252de9e707d9")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR055"
 			(at 92.71 182.88 0)
 			(effects
 				(font
@@ -29320,7 +31196,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR056")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -29445,6 +31321,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Swadge_Parts:C")
+		(at 138.43 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "b48dff68-53a1-41a0-9250-c565a4fa234d")
+		(property "Reference" "C36"
+			(at 139.065 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1μF"
+			(at 139.065 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
+			(at 139.3952 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "~"
+			(at 141.605 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 138.43 270.51 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C29936"
+			(at 138.43 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16768249-2238-48b2-8a23-6d0fa665c7a6")
+		)
+		(pin "2"
+			(uuid "3c4c3cc8-d296-464a-9e44-2eb128de8d93")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Swadge_Parts:GENERIC_LDO_GOI")
 		(at 224.79 120.65 180)
 		(unit 1)
@@ -29559,7 +31531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b659f865-5c93-4074-8bcd-b6efd4fbc887")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR069"
 			(at 345.44 191.77 0)
 			(effects
 				(font
@@ -29609,7 +31581,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR070")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -29624,7 +31596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b663017a-7299-4f2b-a48b-627f5ebb7df4")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR063"
 			(at 358.14 181.61 0)
 			(effects
 				(font
@@ -29674,7 +31646,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -29884,7 +31856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b83a760e-d5bd-4863-a978-e9f14293d438")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR066"
 			(at 223.52 191.77 0)
 			(effects
 				(font
@@ -29934,7 +31906,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR067")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -30067,7 +32039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc1b4401-fef0-4896-a018-b361631c1e18")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR079"
 			(at 215.9 207.01 0)
 			(effects
 				(font
@@ -30117,7 +32089,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR080")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -30132,7 +32104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc4a5834-fc56-4bf5-b2b8-685d8f00c606")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 271.78 31.75 0)
 			(effects
 				(font
@@ -30182,7 +32154,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -30407,7 +32379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf9249c3-e707-4460-b2b5-b179c0042c28")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 349.25 130.81 0)
 			(effects
 				(font
@@ -30457,7 +32429,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -30576,6 +32548,72 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:+5V")
+		(at 80.01 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c5a98c94-eba3-48ad-a389-8d44a852235e")
+		(property "Reference" "#PWR092"
+			(at 80.01 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 80.01 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 80.01 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd1c9da1-ab80-4b5a-9d91-613281c0c1c3")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -31034,7 +33072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccdc2080-3a91-477c-a2bb-e77819f154bb")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR086"
 			(at 358.14 207.01 0)
 			(effects
 				(font
@@ -31084,7 +33122,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR087")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -31099,7 +33137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cce44372-0011-492a-b8f0-c86016ee9a1b")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 16.51 139.7 0)
 			(effects
 				(font
@@ -31149,7 +33187,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -31260,7 +33298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cec2707b-d758-44d2-a4e0-ff81a124ac13")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR076"
 			(at 157.48 205.74 0)
 			(effects
 				(font
@@ -31310,7 +33348,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR077")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -31802,7 +33840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4a4fb3c-b65e-49be-99b5-dc104eaa7368")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR090"
 			(at 101.6 219.71 0)
 			(effects
 				(font
@@ -31852,7 +33890,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR091")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -31991,7 +34029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d52288f0-bfd1-459c-a42d-9355cab9b5aa")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 276.86 181.61 0)
 			(effects
 				(font
@@ -32041,7 +34079,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -32144,7 +34182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7c11a29-0de5-406b-825b-245ebd714fe9")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 22.606 26.4159 0)
 			(effects
 				(font
@@ -32225,7 +34263,7 @@
 		(instances
 			(project ""
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -32431,7 +34469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0e12d7e-f461-4453-b740-785e113fa996")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 83.82 22.86 0)
 			(effects
 				(font
@@ -32481,7 +34519,7 @@
 		(instances
 			(project ""
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -32641,6 +34679,100 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:C")
+		(at 80.01 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "e5d76836-189e-4689-bf22-4d6ae37253ef")
+		(property "Reference" "C35"
+			(at 82.55 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7μF"
+			(at 83.312 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
+			(at 80.9752 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "~"
+			(at 83.185 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 80.01 269.24 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 80.01 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab9d30b0-44e5-4156-b035-b1d92ecfe27e")
+		)
+		(pin "2"
+			(uuid "1ca568eb-ed22-4c2a-a98a-366456fe704c")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -33100,7 +35232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8931a12-9020-453d-8cbc-bd45236797ca")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR048"
 			(at 78.74 160.02 0)
 			(effects
 				(font
@@ -33150,7 +35282,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR050")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -33230,7 +35362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed19f1b4-d4c8-4a18-9cee-66ca019ca9ed")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 257.81 146.05 0)
 			(effects
 				(font
@@ -33280,7 +35412,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -33391,7 +35523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efe49def-cb8e-49d0-a9ad-e335dc5d1d62")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 345.44 111.76 0)
 			(effects
 				(font
@@ -33441,7 +35573,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -33456,7 +35588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0e8e08f-a074-4f33-8137-177ca06e74ac")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 297.18 181.61 0)
 			(effects
 				(font
@@ -33506,7 +35638,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -33714,7 +35846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4e3afc0-6c6d-4dcb-9cd1-58e1f746701e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 295.91 135.89 0)
 			(effects
 				(font
@@ -33764,7 +35896,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -34257,7 +36389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fac13ee4-b816-4fa3-857c-e0b46eaac3d5")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 317.5 181.61 0)
 			(effects
 				(font
@@ -34307,7 +36439,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -34322,7 +36454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fac59dec-4986-4b45-bf5a-443176747f25")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 21.59 46.99 0)
 			(effects
 				(font
@@ -34372,7 +36504,7 @@
 		(instances
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
