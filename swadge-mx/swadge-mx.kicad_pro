@@ -188,7 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.2,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -528,6 +529,10 @@
       {
         "netclass": "Power",
         "pattern": "VREG*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*V_L*"
       }
     ]
   },
