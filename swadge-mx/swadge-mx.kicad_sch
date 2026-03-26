@@ -10547,6 +10547,16 @@
 		)
 		(uuid "06bbe829-f4fd-4c22-b127-789c0cedb249")
 	)
+	(text "TODO: pullup on NPN input"
+		(exclude_from_sim no)
+		(at 297.434 266.7 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "18ad4f43-1969-49e1-abcd-e3baebbcf0d3")
+	)
 	(text "Inertial Measurement Unit (IMU)"
 		(exclude_from_sim no)
 		(at 309.372 89.154 0)
@@ -15950,7 +15960,7 @@
 			)
 		)
 	)
-	(global_label "SAO_A"
+	(global_label "SAO_B"
 		(shape input)
 		(at 129.54 50.8 0)
 		(fields_autoplaced yes)
@@ -15962,7 +15972,7 @@
 		)
 		(uuid "11fb336f-08c0-4d6c-a434-65183bb805ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.21 50.8 0)
+			(at 138.3914 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18282,7 +18292,7 @@
 			)
 		)
 	)
-	(global_label "SAO_B"
+	(global_label "SAO_A"
 		(shape input)
 		(at 224.79 224.79 0)
 		(fields_autoplaced yes)
@@ -18294,7 +18304,7 @@
 		)
 		(uuid "ed899617-9f10-49d6-b09c-80f2f02aafc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.6414 224.79 0)
+			(at 233.46 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
