@@ -10990,7 +10990,7 @@
 		(uuid "23db34fa-1480-40cc-bc81-bac6fae0d5fb")
 	)
 	(junction
-		(at 231.14 224.79)
+		(at 242.57 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24433e59-0c03-424a-871f-d021daeca5ba")
@@ -11302,12 +11302,6 @@
 		(uuid "95ee6638-e636-4dfd-86ae-fe03c41ea13e")
 	)
 	(junction
-		(at 236.22 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "965fb48d-a35c-4469-a5c2-b277d23fb09f")
-	)
-	(junction
 		(at 345.44 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11440,7 +11434,7 @@
 		(uuid "b8843baa-38f9-4870-ab0a-5b8b3f6f4419")
 	)
 	(junction
-		(at 236.22 234.95)
+		(at 247.65 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba3131c7-b558-4168-8242-e9c0ac5878a1")
@@ -11482,6 +11476,12 @@
 		(uuid "dc054a5b-4bb5-4708-b452-4ce56ccd151f")
 	)
 	(junction
+		(at 218.44 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e23b8c54-9d1e-4397-bd0b-a3a6c6e4ad09")
+	)
+	(junction
 		(at 198.12 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11504,6 +11504,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec6a862e-6d7d-4562-a448-bfd37d7c28d1")
+	)
+	(junction
+		(at 247.65 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efc96ea2-22b7-4cf1-8d5c-064d37760282")
 	)
 	(junction
 		(at 39.37 176.53)
@@ -11885,7 +11891,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 227.33) (xy 236.22 234.95)
+			(xy 247.65 227.33) (xy 247.65 234.95)
 		)
 		(stroke
 			(width 0)
@@ -12145,6 +12151,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 229.87) (xy 226.06 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc40aa6-97cc-42d9-aefe-c4026c970161")
+	)
+	(wire
+		(pts
 			(xy 29.21 187.96) (xy 29.21 190.5)
 		)
 		(stroke
@@ -12322,6 +12338,16 @@
 			(type default)
 		)
 		(uuid "2ccc7d12-f023-4dfe-abb9-37e3f1a9df01")
+	)
+	(wire
+		(pts
+			(xy 218.44 217.17) (xy 220.98 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7a61ef-e35d-49d8-88b3-f97093750bef")
 	)
 	(wire
 		(pts
@@ -12725,6 +12751,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 229.87) (xy 234.95 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f18bde3-aae4-4e54-b66d-a6a5f02938f2")
+	)
+	(wire
+		(pts
 			(xy 180.34 158.75) (xy 182.88 158.75)
 		)
 		(stroke
@@ -12762,6 +12798,16 @@
 			(type default)
 		)
 		(uuid "51911fd8-9c8c-47f7-a6a0-503488e3bd95")
+	)
+	(wire
+		(pts
+			(xy 247.65 217.17) (xy 247.65 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52886090-76e5-49ea-8f84-86631aa6ace5")
 	)
 	(wire
 		(pts
@@ -13202,6 +13248,16 @@
 			(type default)
 		)
 		(uuid "70570ec5-3117-456c-87c4-7016ba1b7f72")
+	)
+	(wire
+		(pts
+			(xy 231.14 214.63) (xy 234.95 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b8a4c3-9664-477d-b912-aa239eaf0cab")
 	)
 	(wire
 		(pts
@@ -13725,7 +13781,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 217.17) (xy 236.22 217.17)
+			(xy 242.57 217.17) (xy 247.65 217.17)
 		)
 		(stroke
 			(width 0)
@@ -13975,7 +14031,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 217.17) (xy 236.22 222.25)
+			(xy 247.65 217.17) (xy 247.65 222.25)
 		)
 		(stroke
 			(width 0)
@@ -14212,6 +14268,16 @@
 			(type default)
 		)
 		(uuid "b429900b-ff99-4f62-bc29-0d131cebcd2a")
+	)
+	(wire
+		(pts
+			(xy 212.09 217.17) (xy 218.44 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b655076c-7498-4241-85b8-8ce542ca0666")
 	)
 	(wire
 		(pts
@@ -15025,6 +15091,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 214.63) (xy 242.57 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f557869d-abaf-440b-9ddb-ac544bbcb547")
+	)
+	(wire
+		(pts
 			(xy 297.18 177.8) (xy 304.8 177.8)
 		)
 		(stroke
@@ -15065,7 +15141,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 234.95) (xy 236.22 234.95)
+			(xy 242.57 234.95) (xy 247.65 234.95)
 		)
 		(stroke
 			(width 0)
@@ -15115,7 +15191,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 224.79) (xy 236.22 224.79)
+			(xy 242.57 224.79) (xy 247.65 224.79)
 		)
 		(stroke
 			(width 0)
@@ -16798,6 +16874,28 @@
 			)
 		)
 	)
+	(global_label "SAO_VIB"
+		(shape input)
+		(at 129.54 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "548a424c-c1dd-4604-aa68-77d6e5b73c4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.0848 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2S_MCLK"
 		(shape input)
 		(at 222.25 41.91 180)
@@ -17344,6 +17442,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAO_VIB"
+		(shape input)
+		(at 214.63 227.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6bd5602-4642-490d-8bfb-1acfe102623c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.0852 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -18164,7 +18284,7 @@
 	)
 	(global_label "SAO_B"
 		(shape input)
-		(at 129.54 53.34 0)
+		(at 224.79 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18174,7 +18294,7 @@
 		)
 		(uuid "ed899617-9f10-49d6-b09c-80f2f02aafc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.3914 53.34 0)
+			(at 233.6414 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18246,28 +18366,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIB"
-		(shape input)
-		(at 215.9 229.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f3f44ead-a383-414c-ab18-d7902e31728b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.9514 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -18880,6 +18978,71 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:+3.3V")
+		(at 231.14 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02fb8fec-7c6f-4b74-8d3f-748c91c5c379")
+		(property "Reference" "#PWR098"
+			(at 231.14 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "2.8V_LCD"
+			(at 225.552 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 231.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3608004-1a51-4391-9267-d440adfb7faa")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -27806,7 +27969,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:Q_NPN_BEC")
-		(at 228.6 229.87 0)
+		(at 240.03 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27814,7 +27977,7 @@
 		(dnp no)
 		(uuid "83d81b3c-5190-4ee9-b282-49a47fd706e7")
 		(property "Reference" "Q2"
-			(at 224.79 225.2979 0)
+			(at 236.22 225.2979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27823,7 +27986,7 @@
 			)
 		)
 		(property "Value" "Q_NPN_BEC"
-			(at 219.202 235.4579 0)
+			(at 230.632 235.4579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27832,7 +27995,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SOT-23"
-			(at 245.11 220.98 0)
+			(at 256.54 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27841,7 +28004,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C431710.pdf"
-			(at 228.6 229.87 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27850,7 +28013,7 @@
 			)
 		)
 		(property "Description" "Bipolar (BJT) Transistor NPN 25V 1.5A 100MHz 0.3W Surface Mount SOT-23"
-			(at 228.6 229.87 0)
+			(at 240.03 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27859,7 +28022,7 @@
 			)
 		)
 		(property "LCSC" "C431710"
-			(at 245.11 223.52 0)
+			(at 256.54 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28309,7 +28472,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:GND")
-		(at 236.22 234.95 0)
+		(at 247.65 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28317,7 +28480,7 @@
 		(dnp no)
 		(uuid "8b57a309-7d73-4a11-9f14-bee7d098857e")
 		(property "Reference" "#PWR095"
-			(at 236.22 241.3 0)
+			(at 247.65 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28326,7 +28489,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 238.76 0)
+			(at 247.65 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28334,7 +28497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 234.95 0)
+			(at 247.65 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28343,7 +28506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 234.95 0)
+			(at 247.65 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28352,7 +28515,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 234.95 0)
+			(at 247.65 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29104,6 +29267,72 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:GND")
+		(at 212.09 217.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90c83da5-1dcf-45ee-8628-6b9d9b63b18d")
+		(property "Reference" "#PWR097"
+			(at 212.09 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.772 218.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f33719a7-7ae9-43c0-8f1f-53f953cddeab")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -30483,71 +30712,6 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Swadge_Parts:+3.3V")
-		(at 236.22 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a50f98a1-c29e-4973-89d9-42fb947775f2")
-		(property "Reference" "#PWR096"
-			(at 236.22 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 236.22 213.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 236.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76517d41-fb47-470f-965e-76be24c965ba")
-		)
-		(instances
-			(project "swadge-mx"
-				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
-					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -33339,7 +33503,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:Z3OC1T8219731")
-		(at 241.3 224.79 0)
+		(at 252.73 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33347,7 +33511,7 @@
 		(dnp no)
 		(uuid "bbea803e-11f9-433b-8591-9a7cf7c4f19c")
 		(property "Reference" "M1"
-			(at 241.3 218.4399 0)
+			(at 252.73 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33356,7 +33520,7 @@
 			)
 		)
 		(property "Value" "Z3OC1T8219731"
-			(at 238.252 231.6479 0)
+			(at 257.302 233.9339 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33365,7 +33529,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:VIBRATING-MOTOR-SMD_3P-C9900001680"
-			(at 241.3 234.95 0)
+			(at 252.73 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33374,7 +33538,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2894731.pdf"
-			(at 241.3 224.79 0)
+			(at 252.73 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33383,7 +33547,7 @@
 			)
 		)
 		(property "Description" "Cylindrical DC Motor 2.7V CW Motors - AC, DC RoHS"
-			(at 241.3 224.79 0)
+			(at 252.73 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33392,7 +33556,7 @@
 			)
 		)
 		(property "LCSC" "C2894731"
-			(at 241.3 237.49 0)
+			(at 252.73 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35754,7 +35918,7 @@
 	(symbol
 		(lib_name "D_1")
 		(lib_id "Swadge_Parts:D")
-		(at 231.14 220.98 90)
+		(at 242.57 220.98 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35763,7 +35927,7 @@
 		(dnp no)
 		(uuid "da8fb2ad-c507-400b-9b2b-2e8795f8acd0")
 		(property "Reference" "D14"
-			(at 227.33 219.7099 90)
+			(at 238.76 219.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35772,16 +35936,17 @@
 			)
 		)
 		(property "Value" "D"
-			(at 227.33 222.2499 90)
+			(at 238.76 222.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 220.98 0)
+			(at 234.95 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35790,7 +35955,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810192041_MDD-Microdiode-Electronics--SS54_C22452.pdf"
-			(at 231.14 220.98 0)
+			(at 242.57 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35799,7 +35964,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 231.14 220.98 0)
+			(at 242.57 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35808,7 +35973,7 @@
 			)
 		)
 		(property "Digikey" "2616-GS1J-ND"
-			(at 226.06 220.98 0)
+			(at 237.49 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35817,7 +35982,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 218.44 220.98 0)
+			(at 229.87 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35826,7 +35991,7 @@
 			)
 		)
 		(property "LCSC" "C22452"
-			(at 231.14 220.98 0)
+			(at 242.57 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35835,7 +36000,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0288"
-			(at 231.14 220.98 0)
+			(at 242.57 220.98 0)
 			(effects
 				(font
 					(size 1 1)
@@ -37141,6 +37306,118 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
+		(at 238.76 214.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f31c5401-adfa-499e-b8bc-321e3a2739c3")
+		(property "Reference" "R37"
+			(at 238.76 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 238.76 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
+			(at 238.506 215.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor US symbol"
+			(at 238.76 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost100" "10"
+			(at 238.76 214.63 0)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "~"
+			(at 241.3 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 238.76 214.63 0)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C108661"
+			(at 238.76 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0008"
+			(at 238.76 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b1d06a0-9d2f-48cf-90de-07f11d24486c")
+		)
+		(pin "2"
+			(uuid "f70a1ce5-b7c7-4b48-b0d0-24e7807b9e15")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:R_US")
 		(at 345.44 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37624,7 +37901,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:R_US")
-		(at 219.71 229.87 90)
+		(at 229.87 229.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37632,7 +37909,7 @@
 		(dnp no)
 		(uuid "f93b4ad0-82d6-49d0-9b56-d075a3432f3c")
 		(property "Reference" "R36"
-			(at 219.71 227.584 90)
+			(at 229.87 227.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37640,7 +37917,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 219.71 232.156 90)
+			(at 229.87 232.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37648,7 +37925,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 219.964 228.854 90)
+			(at 230.124 228.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37657,7 +37934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 227.33 90)
+			(at 229.87 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37666,7 +37943,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 219.71 229.87 0)
+			(at 229.87 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37675,7 +37952,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 217.17 224.79 90)
+			(at 227.33 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37684,7 +37961,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 219.71 229.87 0)
+			(at 229.87 229.87 0)
 			(effects
 				(font
 					(size 0.254 0.254)
@@ -37693,7 +37970,7 @@
 			)
 		)
 		(property "LCSC" "C2907014"
-			(at 219.71 229.87 90)
+			(at 229.87 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38094,6 +38371,137 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:SW_SPDT_1825232-1")
+		(at 219.71 227.33 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fad67a7e-6bd8-4d88-8b79-c8fec058a664")
+		(property "Reference" "SW10"
+			(at 219.71 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_1825232-1"
+			(at 218.44 236.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:1825232-1"
+			(at 219.71 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf"
+			(at 219.71 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
+			(at 219.71 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "A107673-ND"
+			(at 219.71 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost100" "45"
+			(at 219.71 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 219.71 227.33 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Use SPDT slide switch. Similar to 1825232-1"
+			(at 219.71 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393937"
+			(at 219.71 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ 2.5k" "0.0123"
+			(at 219.71 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9b6dce9-6523-424a-8e67-e4d1a8178920")
+		)
+		(pin "2"
+			(uuid "1309bae0-1e52-444f-87fd-3f26a3c3b881")
+		)
+		(pin "3"
+			(uuid "f8ebb56c-249f-44b4-afb7-b42d641acd63")
+		)
+		(pin "4"
+			(uuid "e115b687-9376-44e3-9974-ffc78693c362")
+		)
+		(pin "5"
+			(uuid "47b30df0-3369-4258-9041-c52944a51e54")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55"
+					(reference "SW10")
 					(unit 1)
 				)
 			)
