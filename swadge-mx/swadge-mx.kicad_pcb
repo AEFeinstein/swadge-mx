@@ -352,7 +352,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2910918"
+		(property "LCSC" "C2845297"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1361,7 +1361,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5377634"
+		(property "LCSC" "C620349"
 			(at 0 0 295)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5396,7 +5396,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2910918"
+		(property "LCSC" "C2845297"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5794,7 +5794,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2910918"
+		(property "LCSC" "C2845297"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6192,7 +6192,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2910918"
+		(property "LCSC" "C2845297"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18820,7 +18820,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2910918"
+		(property "LCSC" "C2845297"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19735,7 +19735,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5377634"
+		(property "LCSC" "C620349"
 			(at 0 0 295)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21558,7 +21558,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2910918"
+		(property "LCSC" "C2845297"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45753,7 +45753,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110111830_UMW-Youtai-Semiconductor-Co---Ltd--XC6206P282MR_C347374.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5148690.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -45793,7 +45793,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C347374"
+		(property "LCSC" "C5148690"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -64605,8 +64605,10 @@
 	(group ""
 		(uuid "7ff1c58a-1f55-4676-ad7c-2e1570fe1464")
 		(locked yes)
-		(members "41ec7166-6a3b-4a4d-869e-89fd2e61112b" "5914dca0-52dc-4226-bdca-f2c90f7aa2c3"
-			"b79dff68-0218-4f93-9202-e079157039e5" "f98cc6ed-d0d8-4f16-bc84-5ba8c51d0a97"
+		(members "0f05f869-4847-4a3a-93ca-e0244983e75e" "39afa0f6-fda7-4a20-8b2b-18d14c74e46c"
+			"41ec7166-6a3b-4a4d-869e-89fd2e61112b" "5914dca0-52dc-4226-bdca-f2c90f7aa2c3"
+			"b79dff68-0218-4f93-9202-e079157039e5" "d3ff35d2-5034-43cb-b23a-503db41d79ea"
+			"e56b21dc-4b0e-43e6-a4c7-f6f17cca6bc7" "f98cc6ed-d0d8-4f16-bc84-5ba8c51d0a97"
 		)
 	)
 	(group ""
@@ -64634,14 +64636,16 @@
 	)
 	(group ""
 		(uuid "fd796737-1d3d-4445-859c-2f6c9936738a")
-		(members "1c3fe258-e924-437e-a6c1-62f49ff503f9" "711458ca-5036-4263-b92c-c13401860013"
-			"e04db21d-5d77-48ec-8b8e-318b840b04ce"
+		(members "1c3fe258-e924-437e-a6c1-62f49ff503f9" "4a0b5d70-995a-4624-a32e-94a44f6fcd9b"
+			"711458ca-5036-4263-b92c-c13401860013" "e04db21d-5d77-48ec-8b8e-318b840b04ce"
+			"f505dbf9-ec1c-462f-8a73-07fb46a38676"
 		)
 	)
 	(group ""
 		(uuid "8d2402b0-92a2-42de-84da-13724a8a03a5")
 		(locked yes)
-		(members "1ccfcbd7-da5e-416b-819d-a8766be771ad" "21cc820d-42d3-469b-91ad-529b95807a1b"
+		(members "136e2b2c-e152-4f00-bf43-88f0ecf71f59" "1ccfcbd7-da5e-416b-819d-a8766be771ad"
+			"21cc820d-42d3-469b-91ad-529b95807a1b" "d1e95634-46c9-4c92-b298-6dd65ac4e3a1"
 			"d4fe465c-762c-4541-b1d9-cd611375532a" "f81ecb09-58f1-4732-bb08-4dccdae6872c"
 		)
 	)

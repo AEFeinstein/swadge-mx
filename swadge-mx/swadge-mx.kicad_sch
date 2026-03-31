@@ -60901,7 +60901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110111830_UMW-Youtai-Semiconductor-Co---Ltd--XC6206P282MR_C347374.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5148690.pdf"
 			(at 224.79 120.65 0)
 			(effects
 				(font
@@ -60928,7 +60928,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C347374"
+		(property "LCSC" "C5148690"
 			(at 224.79 120.65 0)
 			(effects
 				(font
