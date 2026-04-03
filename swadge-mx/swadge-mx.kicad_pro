@@ -701,7 +701,7 @@
       "default_text_size": 50.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
-      "intersheets_ref_prefix": "",
+      "intersheets_ref_prefix": "SCH ",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
@@ -737,6 +737,50 @@
     [
       "71d9b0a5-2583-445f-b3de-7fdf7b78df55",
       "Root"
+    ],
+    [
+      "db9a91c4-b1ec-44e6-94df-952176ae0feb",
+      "ESP32 Processor Subsystem"
+    ],
+    [
+      "20b745c4-3ad9-444c-bc0c-1c5b7368574b",
+      "USB IO"
+    ],
+    [
+      "75da3397-b1a9-4833-8f46-5120f37e768c",
+      "Power Subsystem"
+    ],
+    [
+      "25fa8dd7-de20-418c-a9e3-5cbbb58fe7f8",
+      "TFT Display Subsystem"
+    ],
+    [
+      "a2a15507-039d-410a-9212-207bace43369",
+      "Buttons"
+    ],
+    [
+      "5e2b020d-caf1-43a8-b178-c9226255b0ce",
+      "IMU Peripheral"
+    ],
+    [
+      "17899449-bc22-4b91-a388-5f728dcef06a",
+      "Vibration Motor Peripheral"
+    ],
+    [
+      "b24364ed-b5ce-4d96-abf2-86b051bba048",
+      "LED Peripheral"
+    ],
+    [
+      "98cb8fce-df3a-4785-bc15-4038dd34d3df",
+      "Speaker Peripheral"
+    ],
+    [
+      "ad5e1c1f-939a-4ebe-bd0b-e61cbc16b2f8",
+      "Audio Subsystem"
+    ],
+    [
+      "cc8f00ff-de34-4011-8a9e-a16d4d698946",
+      "Coprocessor Subsystem"
     ]
   ],
   "text_variables": {}
