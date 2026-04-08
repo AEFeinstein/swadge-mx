@@ -2615,12 +2615,6 @@
 		(uuid "4ac0c422-f9aa-4021-b035-659d52157299")
 	)
 	(junction
-		(at 147.32 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55924d11-74ef-4d49-b9ab-941c60d80613")
-	)
-	(junction
 		(at 152.4 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3396,16 +3390,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 25.4) (xy 162.56 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab6b552f-71c7-4964-adb4-7009ed855887")
-	)
-	(wire
-		(pts
 			(xy 63.5 25.4) (xy 63.5 33.02)
 		)
 		(stroke
@@ -3634,6 +3618,16 @@
 		)
 		(uuid "a489a95c-6662-4651-9739-3f4a1303e85b")
 	)
+	(label "2.8V"
+		(at 139.7 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aef9cda5-52d1-4e3f-95a6-49954a28bb66")
+	)
 	(label "GND"
 		(at 165.1 124.46 180)
 		(effects
@@ -3685,17 +3679,6 @@
 			(justify left)
 		)
 		(uuid "841747b4-c3e6-4acd-9cef-1d6e02c10c91")
-	)
-	(hierarchical_label "2V8_LCD"
-		(shape output)
-		(at 162.56 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d254dd6-c968-4c32-99af-2f14f8697dfa")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
