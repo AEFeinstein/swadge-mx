@@ -3618,6 +3618,16 @@
 		)
 		(uuid "a489a95c-6662-4651-9739-3f4a1303e85b")
 	)
+	(label "2.8V"
+		(at 139.7 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aef9cda5-52d1-4e3f-95a6-49954a28bb66")
+	)
 	(label "GND"
 		(at 165.1 124.46 180)
 		(effects
