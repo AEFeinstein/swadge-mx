@@ -1563,6 +1563,246 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Swadge_Parts:Conn_01x03_Male"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Male"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Swadge_Parts:PinHeader_1x03_P2.54mm_Vertical"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811132313_BOOMELE-Boom-Precision-Elec-C49257_C49257.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "1849-1003-ND"
+				(at 2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Substitutable" "Y"
+				(at 7.62 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" "Put a jumper on this, similar to QPC02SXGN-RC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C49257"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost@2500" "0.0122"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Male_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Swadge_Parts:FS-1540"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2329,6 +2569,12 @@
 		(uuid "26c39999-2f3a-48bf-869c-6fc56fca893f")
 	)
 	(junction
+		(at 185.42 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3511d77a-64e5-4681-90f4-a203d278b8a1")
+	)
+	(junction
 		(at 134.62 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2339,6 +2585,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a1ff1a3-32b7-4e8d-b67f-6fdc1f2ffded")
+	)
+	(junction
+		(at 238.76 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aaecb35-5604-4d1f-b3de-7904283af212")
+	)
+	(junction
+		(at 237.49 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9158925f-9ad7-48bf-9267-310e4f202e59")
 	)
 	(junction
 		(at 134.62 50.8)
@@ -2404,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 93.98) (xy 241.3 93.98)
+			(xy 231.14 93.98) (xy 237.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2461,6 +2719,16 @@
 			(type default)
 		)
 		(uuid "2825076c-c60a-4f6d-a978-b888cd28f6aa")
+	)
+	(wire
+		(pts
+			(xy 238.76 76.2) (xy 238.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfd8c9d-7de2-4e83-aa7e-67fd50a151d2")
 	)
 	(wire
 		(pts
@@ -2521,6 +2789,16 @@
 			(type default)
 		)
 		(uuid "49a8217f-b28e-48c3-a8f9-c5c0fd5c59c2")
+	)
+	(wire
+		(pts
+			(xy 241.3 73.66) (xy 237.49 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cfb283-cd53-486c-a77c-7023365010c5")
 	)
 	(wire
 		(pts
@@ -2594,6 +2872,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 73.66) (xy 237.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613113d9-2ca7-470c-b991-44aba681a62a")
+	)
+	(wire
+		(pts
 			(xy 129.54 81.28) (xy 116.84 81.28)
 		)
 		(stroke
@@ -2631,6 +2919,36 @@
 			(type default)
 		)
 		(uuid "68c4486e-3e7b-4afd-a07b-946ff104033e")
+	)
+	(wire
+		(pts
+			(xy 238.76 91.44) (xy 241.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b825e77-8cb2-4100-8bcf-0b954839cdd7")
+	)
+	(wire
+		(pts
+			(xy 241.3 76.2) (xy 238.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7795f753-0442-4c23-aa11-de6a44486a2b")
+	)
+	(wire
+		(pts
+			(xy 240.03 78.74) (xy 240.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850b11ba-93b8-43de-ac7c-36edadbf37c4")
 	)
 	(wire
 		(pts
@@ -2712,6 +3030,16 @@
 		)
 		(uuid "999195cd-84a9-4b2d-a458-706a2f266378")
 	)
+	(wire
+		(pts
+			(xy 237.49 93.98) (xy 241.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e4dcb5-e9b2-4723-88e3-f89b758feb56")
+	)
 	(bus
 		(pts
 			(xy 193.04 88.9) (xy 205.74 88.9)
@@ -2751,6 +3079,16 @@
 			(type default)
 		)
 		(uuid "a677b7d6-7d05-45f1-96f4-c82730030e5f")
+	)
+	(wire
+		(pts
+			(xy 240.03 114.3) (xy 185.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a825f231-3047-4333-921c-82fad9fb75a9")
 	)
 	(wire
 		(pts
@@ -2801,6 +3139,16 @@
 			(type default)
 		)
 		(uuid "af34ee85-decc-41ee-a341-a5ce60b5d911")
+	)
+	(wire
+		(pts
+			(xy 241.3 78.74) (xy 240.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afdbf026-8ee9-49ce-92b1-7fda961aee13")
 	)
 	(wire
 		(pts
@@ -2874,7 +3222,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 91.44) (xy 241.3 91.44)
+			(xy 231.14 91.44) (xy 238.76 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3340,6 +3688,121 @@
 			(project "swadge-mx"
 				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55/ad5e1c1f-939a-4ebe-bd0b-e61cbc16b2f8"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Swadge_Parts:Conn_01x03_Male")
+		(at 246.38 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c666b14-a552-4d66-9c82-a8444176fe63")
+		(property "Reference" "J8"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Male"
+			(at 251.714 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Swadge_Parts:PinHeader_1x03_P2.54mm_Vertical"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811132313_BOOMELE-Boom-Precision-Elec-C49257_C49257.pdf"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1849-1003-ND"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitutable" "Y"
+			(at 238.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Put a jumper on this, similar to QPC02SXGN-RC"
+			(at 246.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49257"
+			(at 246.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost@2500" "0.0122"
+			(at 246.38 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28d3ba7c-5393-44a4-8893-59151283bb49")
+		)
+		(pin "3"
+			(uuid "0334dadc-f60c-4c10-8b73-160a592621f0")
+		)
+		(pin "2"
+			(uuid "7f19c593-c537-4aaf-a1a3-577d20353c23")
+		)
+		(instances
+			(project "swadge-mx"
+				(path "/71d9b0a5-2583-445f-b3de-7fdf7b78df55/ad5e1c1f-939a-4ebe-bd0b-e61cbc16b2f8"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4144,7 +4607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Swadge_Parts:INGHAi_MIC_GMI4013S-2C58DB"
+		(property "Footprint" "Swadge_Parts:MIC-SMD_BD4.0_B4013AM423-093-1"
 			(at 124.46 73.66 90)
 			(effects
 				(font

@@ -1094,29 +1094,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 179.832 64.008)
-		(end 196.342 67.818)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 191 255 127 1)
-		)
-		(uuid 0665a0f6-68dd-4f26-9e60-85011603e7db)
-	)
-	(text "Vibration Motor"
-		(exclude_from_sim no)
-		(at 187.96 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "00c4c2e0-f8c2-4c02-864a-c7b2751765ab")
-	)
 	(junction
 		(at 127 111.76)
 		(diameter 0)

@@ -1003,29 +1003,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 83.82 38.1)
-		(end 119.38 43.18)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 191 255 127 1)
-		)
-		(uuid 5f3cec3f-0400-4c0a-bd06-08a06bca593d)
-	)
-	(text "Inertial Measurement Unit (IMU)"
-		(exclude_from_sim no)
-		(at 101.6 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "72716e09-e32d-4114-b8e2-ea0c459371d3")
-	)
 	(text_box "LSM6DS3 I2C Addr = 0x6A"
 		(exclude_from_sim no)
 		(at 127 38.1 0)

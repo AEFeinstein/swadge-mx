@@ -2573,12 +2573,6 @@
 		(uuid "b3a3aded-4847-4a7a-a158-74f0e1ad466b")
 	)
 	(junction
-		(at 93.98 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0696b56c-3f75-4dcf-a41b-e60ce70ee3b6")
-	)
-	(junction
 		(at 182.88 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2589,6 +2583,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "187471fb-0a06-4481-86f2-b93a01724fee")
+	)
+	(junction
+		(at 93.98 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1db14f39-1d3a-47fb-a1a3-9965a1baf718")
 	)
 	(junction
 		(at 170.18 81.28)
@@ -2675,12 +2675,6 @@
 		(uuid "9c0fa106-d0fe-4c0f-84f3-04a217d73550")
 	)
 	(junction
-		(at 76.2 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a899fdb1-aad3-4908-9e4d-571cff61439c")
-	)
-	(junction
 		(at 53.34 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2703,6 +2697,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e62810e9-8c5a-4c97-8f60-e8ef9be4b5c0")
+	)
+	(junction
+		(at 76.2 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef0ea967-ec76-4b1d-acc9-6aa62eff407a")
 	)
 	(junction
 		(at 152.4 124.46)
@@ -3060,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 104.14) (xy 81.28 104.14)
+			(xy 76.2 105.41) (xy 81.28 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3097,6 +3097,16 @@
 			(type default)
 		)
 		(uuid "52d17f67-c4cf-4859-a4c3-c073207554dd")
+	)
+	(wire
+		(pts
+			(xy 76.2 105.41) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55247c91-790e-4351-b820-cf7b7ecb1c08")
 	)
 	(wire
 		(pts
@@ -3300,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 104.14) (xy 93.98 104.14)
+			(xy 88.9 105.41) (xy 93.98 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3317,16 +3327,6 @@
 			(type default)
 		)
 		(uuid "9485d7f1-6e6d-4766-8e60-fa560c716d10")
-	)
-	(wire
-		(pts
-			(xy 76.2 104.14) (xy 73.66 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98176edf-01bf-40cf-a25f-0432e7b9131d")
 	)
 	(wire
 		(pts
@@ -3370,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 109.22) (xy 76.2 104.14)
+			(xy 76.2 109.22) (xy 76.2 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3427,6 +3427,16 @@
 			(type default)
 		)
 		(uuid "b714e7df-e33b-4ca5-b02e-22232d268de1")
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 93.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1d4f8b-2290-4965-95bf-fb486b458156")
 	)
 	(wire
 		(pts
@@ -3540,6 +3550,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 104.14) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee175a23-8824-48fb-9405-ecfb63fb2c97")
+	)
+	(wire
+		(pts
 			(xy 68.58 86.36) (xy 129.54 86.36)
 		)
 		(stroke
@@ -3550,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 93.98 109.22)
+			(xy 93.98 104.14) (xy 93.98 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3587,6 +3607,16 @@
 			(justify left bottom)
 		)
 		(uuid "751aa684-6997-465e-9e42-7343ad8ad8cb")
+	)
+	(label "LED_BUCK_OUT"
+		(at 76.2 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "929f7448-5393-44a8-96f4-0a6c2ceb4e72")
 	)
 	(label "DISP.TFT_CS"
 		(at 134.62 90.17 0)
@@ -4623,7 +4653,7 @@
 	(symbol
 		(lib_name "L_1")
 		(lib_id "Swadge_Parts:L")
-		(at 85.09 104.14 90)
+		(at 85.09 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4631,7 +4661,7 @@
 		(dnp no)
 		(uuid "84d0cdc5-caa5-4333-83bb-292d59a68060")
 		(property "Reference" "L1"
-			(at 85.09 105.41 90)
+			(at 85.09 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4669,7 @@
 			)
 		)
 		(property "Value" "33uH_500mA"
-			(at 85.09 102.235 90)
+			(at 85.09 108.839 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4677,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:L_1210_3225Metric"
-			(at 85.09 104.14 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 104.14 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4695,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 85.09 104.14 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4704,7 @@
 			)
 		)
 		(property "LCSC" "C90317"
-			(at 85.09 104.14 90)
+			(at 85.09 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4713,7 @@
 			)
 		)
 		(property "Cost100" "11.16"
-			(at 85.09 104.14 90)
+			(at 85.09 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4722,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 85.09 104.14 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4731,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 85.09 104.14 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +4740,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0545"
-			(at 85.09 104.14 0)
+			(at 85.09 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
