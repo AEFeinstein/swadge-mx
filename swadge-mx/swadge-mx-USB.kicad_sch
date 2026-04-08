@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "228418a3-c5fc-4a9b-b776-65ffaa9e0571")
-	(paper "A4")
+	(paper "A")
 	(lib_symbols
 		(symbol "R_US_11"
 			(pin_numbers
@@ -1662,93 +1662,82 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB, Battery Charging, Power Regulation"
-		(exclude_from_sim no)
-		(at 72.39 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac305fe9-e133-46e4-8311-cf2402dd427f")
-	)
 	(junction
-		(at 147.32 63.5)
+		(at 114.3 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03596dc0-244b-4ff1-954a-b1222c4125ce")
 	)
 	(junction
-		(at 129.54 63.5)
+		(at 96.52 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "049368c7-b3c9-4df4-96af-497fd8a0632a")
 	)
 	(junction
-		(at 132.08 66.04)
+		(at 99.06 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36ab3ecd-1fb8-4e01-a6a4-900d992e8ffd")
 	)
 	(junction
-		(at 134.62 81.28)
+		(at 101.6 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57b6f98a-02b5-4074-b98d-2f1f7ca5af03")
 	)
 	(junction
-		(at 144.78 66.04)
+		(at 111.76 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b2a6d93-c34e-4ccf-ba88-a6dd8757c80e")
 	)
 	(junction
-		(at 162.56 101.6)
+		(at 129.54 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64c4f0cb-f2a8-447c-83c0-017def433bd3")
 	)
 	(junction
-		(at 134.62 101.6)
+		(at 139.7 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a5596a7-6b8b-400f-aab6-c96c9587b4db")
+		(uuid "6636a96b-0abc-4cbc-afd9-1c962815dc18")
 	)
 	(junction
-		(at 149.86 53.34)
+		(at 116.84 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f3f8927-fe08-46c3-9509-313d4ef5dbcf")
 	)
 	(junction
-		(at 134.62 78.74)
+		(at 101.6 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ee1c948-a39f-4f58-81f2-0b6c7508f198")
 	)
 	(junction
-		(at 147.32 101.6)
+		(at 114.3 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb15a33f-5cd8-4a33-9032-4df44b19e6aa")
 	)
 	(junction
-		(at 134.62 53.34)
+		(at 101.6 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea569a19-d30f-4504-ae70-ae8a01f98501")
 	)
 	(no_connect
-		(at 127 71.12)
+		(at 93.98 119.38)
 		(uuid "b2ddb7b5-03ac-4f1c-9789-71b8b7909df2")
 	)
 	(no_connect
-		(at 127 55.88)
+		(at 93.98 104.14)
 		(uuid "c1c2ddc4-db05-44bf-a63b-14382edd1f46")
 	)
 	(bus_entry
-		(at 196.85 71.12)
+		(at 163.83 119.38)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1757,7 +1746,7 @@
 		(uuid "6206a155-8efa-4106-b633-636091647431")
 	)
 	(bus_entry
-		(at 196.85 63.5)
+		(at 163.83 111.76)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1767,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 50.8) (xy 134.62 53.34)
+			(xy 101.6 99.06) (xy 101.6 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 53.34) (xy 134.62 53.34)
+			(xy 93.98 101.6) (xy 101.6 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 172.72 93.98)
+			(xy 139.7 149.86) (xy 139.7 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +1786,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 76.2) (xy 134.62 78.74)
+			(xy 101.6 124.46) (xy 101.6 127)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 63.5) (xy 147.32 63.5)
+			(xy 96.52 111.76) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1817,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 93.98) (xy 162.56 101.6)
+			(xy 129.54 142.24) (xy 129.54 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1827,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 53.34) (xy 149.86 53.34)
+			(xy 101.6 101.6) (xy 116.84 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 101.6) (xy 172.72 101.6)
+			(xy 129.54 149.86) (xy 139.7 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 58.42) (xy 139.7 58.42)
+			(xy 93.98 106.68) (xy 106.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 60.96) (xy 194.31 60.96)
+			(xy 139.7 109.22) (xy 161.29 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 66.04) (xy 144.78 66.04)
+			(xy 99.06 114.3) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1877,17 +1866,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 101.6) (xy 147.32 101.6)
+			(xy 177.8 149.86) (xy 139.7 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4859d848-7811-4299-9e64-95a5f8515e1e")
+		(uuid "39f5745f-3e85-4ef0-bb8b-5561692d5f5b")
 	)
 	(wire
 		(pts
-			(xy 160.02 68.58) (xy 165.1 68.58)
+			(xy 127 116.84) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1886,7 @@
 	)
 	(bus
 		(pts
-			(xy 196.85 71.12) (xy 196.85 73.66)
+			(xy 163.83 119.38) (xy 163.83 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 81.28) (xy 162.56 86.36)
+			(xy 129.54 129.54) (xy 129.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 162.56 101.6)
+			(xy 114.3 149.86) (xy 129.54 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 63.5) (xy 147.32 86.36)
+			(xy 114.3 111.76) (xy 114.3 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 68.58) (xy 194.31 68.58)
+			(xy 139.7 116.84) (xy 161.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1947,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 81.28) (xy 134.62 101.6)
+			(xy 101.6 129.54) (xy 101.6 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 78.74) (xy 134.62 78.74)
+			(xy 93.98 127) (xy 101.6 127)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +1956,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 60.96) (xy 165.1 60.96)
+			(xy 127 109.22) (xy 132.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1977,7 +1966,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 66.04) (xy 160.02 66.04)
+			(xy 111.76 114.3) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +1976,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 134.62 81.28)
+			(xy 93.98 129.54) (xy 101.6 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 60.96) (xy 160.02 63.5)
+			(xy 127 109.22) (xy 127 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 129.54 63.5)
+			(xy 93.98 111.76) (xy 96.52 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2017,7 +2006,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 147.32 96.52)
+			(xy 114.3 149.86) (xy 114.3 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +2016,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 81.28) (xy 172.72 86.36)
+			(xy 139.7 129.54) (xy 139.7 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2026,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 53.34) (xy 149.86 86.36)
+			(xy 116.84 101.6) (xy 116.84 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 60.96) (xy 132.08 60.96)
+			(xy 93.98 109.22) (xy 99.06 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 53.34) (xy 210.82 53.34)
+			(xy 116.84 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 134.62 76.2)
+			(xy 93.98 124.46) (xy 101.6 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 68.58) (xy 160.02 66.04)
+			(xy 127 116.84) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2076,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 78.74) (xy 134.62 81.28)
+			(xy 101.6 127) (xy 101.6 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +2086,7 @@
 	)
 	(bus
 		(pts
-			(xy 196.85 63.5) (xy 196.85 71.12)
+			(xy 163.83 111.76) (xy 163.83 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2107,7 +2096,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 132.08 66.04)
+			(xy 93.98 114.3) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2106,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 63.5) (xy 129.54 68.58)
+			(xy 96.52 111.76) (xy 96.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 63.5) (xy 160.02 63.5)
+			(xy 114.3 111.76) (xy 127 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2137,17 +2126,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 101.6) (xy 134.62 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daeb899c-3214-4c96-8a41-3c0619f8a47f")
-	)
-	(wire
-		(pts
-			(xy 144.78 66.04) (xy 144.78 86.36)
+			(xy 111.76 114.3) (xy 111.76 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2157,7 +2136,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 134.62 50.8)
+			(xy 114.3 149.86) (xy 101.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81c8008-95b4-42d2-b0f8-b278ed2f4219")
+	)
+	(wire
+		(pts
+			(xy 93.98 99.06) (xy 101.6 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2167,7 +2156,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 68.58) (xy 129.54 68.58)
+			(xy 93.98 116.84) (xy 96.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2166,7 @@
 	)
 	(bus
 		(pts
-			(xy 210.82 73.66) (xy 196.85 73.66)
+			(xy 177.8 121.92) (xy 163.83 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 139.7 73.66)
+			(xy 93.98 121.92) (xy 106.68 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2197,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 60.96) (xy 132.08 66.04)
+			(xy 99.06 109.22) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2206,7 +2195,7 @@
 		(uuid "f831f026-ba7c-41ad-8ed9-471b4f793c3b")
 	)
 	(label "EXT.USB_D-"
-		(at 144.78 66.04 180)
+		(at 111.76 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2216,7 +2205,7 @@
 		(uuid "0185f5f3-0b65-41f3-9ad8-919cd0c96890")
 	)
 	(label "COMM.USB_D+"
-		(at 194.31 60.96 180)
+		(at 161.29 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2226,7 +2215,7 @@
 		(uuid "2b30ab43-77e6-4b98-874f-87e3abdcd4a5")
 	)
 	(label "EXT.USB_D+"
-		(at 144.78 63.5 180)
+		(at 111.76 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2236,7 +2225,7 @@
 		(uuid "2d60c1b9-f574-4457-ab26-2a1f4344bbaa")
 	)
 	(label "CC2"
-		(at 139.7 73.66 180)
+		(at 106.68 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2246,7 +2235,7 @@
 		(uuid "392a6325-d035-4314-bd56-85534187b4da")
 	)
 	(label "CC1"
-		(at 139.7 58.42 180)
+		(at 106.68 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2256,7 +2245,7 @@
 		(uuid "61b163ba-2705-45ba-9f16-147dfc9e3e86")
 	)
 	(label "CC2"
-		(at 172.72 81.28 90)
+		(at 139.7 129.54 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2266,7 +2255,7 @@
 		(uuid "9582266f-77e3-45ea-b2ca-8c09c6378d69")
 	)
 	(label "5V_USB"
-		(at 147.32 53.34 180)
+		(at 114.3 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2276,7 +2265,7 @@
 		(uuid "9997878e-452f-4b82-a34c-e219b2c194ca")
 	)
 	(label "COMM.USB_D-"
-		(at 194.31 68.58 180)
+		(at 161.29 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2286,7 +2275,7 @@
 		(uuid "e41afb3b-a0b6-4174-85bd-4c6880a36c3c")
 	)
 	(label "CC1"
-		(at 162.56 81.28 90)
+		(at 129.54 129.54 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2297,7 +2286,7 @@
 	)
 	(hierarchical_label "COMM{USB}"
 		(shape bidirectional)
-		(at 210.82 73.66 0)
+		(at 177.8 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2308,7 +2297,7 @@
 	)
 	(hierarchical_label "5V_USB"
 		(shape output)
-		(at 210.82 53.34 0)
+		(at 177.8 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2319,19 +2308,19 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 134.62 109.22 270)
+		(at 177.8 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f35e3a4b-3292-4e78-8a23-6f46e56d998d")
 	)
 	(symbol
 		(lib_name "R_US_32")
 		(lib_id "Swadge_Parts:R_US")
-		(at 168.91 60.96 270)
+		(at 135.89 109.22 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2340,7 +2329,7 @@
 		(dnp no)
 		(uuid "1c23f8e0-280c-4d0e-9b99-aac1f8b03251")
 		(property "Reference" "R20"
-			(at 166.37 58.674 90)
+			(at 133.35 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2337,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 171.196 58.674 90)
+			(at 138.176 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2345,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 168.656 59.944 90)
+			(at 135.636 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 58.42 90)
+			(at 135.89 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2363,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 168.91 60.96 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2372,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 171.45 55.88 90)
+			(at 138.43 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2381,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 168.91 60.96 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 0.254 0.254)
@@ -2401,7 +2390,7 @@
 			)
 		)
 		(property "LCSC" "C108661"
-			(at 168.91 60.96 90)
+			(at 135.89 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2416,7 @@
 	(symbol
 		(lib_name "R_US_30")
 		(lib_id "Swadge_Parts:R_US")
-		(at 172.72 90.17 180)
+		(at 139.7 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2435,7 +2424,7 @@
 		(dnp no)
 		(uuid "25177b38-6f0d-4afd-a2d6-e020a50f8ff9")
 		(property "Reference" "R27"
-			(at 170.18 90.17 90)
+			(at 137.16 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2432,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 175.26 90.17 90)
+			(at 142.24 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2440,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 171.704 89.916 90)
+			(at 138.684 138.176 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 90.17 90)
+			(at 137.16 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2458,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 172.72 90.17 0)
+			(at 139.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +2467,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 167.64 92.71 90)
+			(at 134.62 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +2476,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 172.72 90.17 0)
+			(at 139.7 138.43 0)
 			(effects
 				(font
 					(size 0.254 0.254)
@@ -2496,7 +2485,7 @@
 			)
 		)
 		(property "LCSC" "C2907044"
-			(at 172.72 90.17 90)
+			(at 139.7 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2510,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SP0503BAHT")
-		(at 147.32 91.44 0)
+		(at 114.3 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2529,7 +2518,7 @@
 		(dnp no)
 		(uuid "3bf538f9-0e4b-4f29-800e-3918debddaf4")
 		(property "Reference" "D2"
-			(at 142.24 96.52 0)
+			(at 109.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2527,7 @@
 			)
 		)
 		(property "Value" "SP0503BAHT"
-			(at 134.62 99.06 0)
+			(at 101.6 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2536,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SOT-143"
-			(at 153.035 92.71 0)
+			(at 120.015 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2546,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108132030_TECH-PUBLIC-TPSP0503BAHTG_C2682275.pdf"
-			(at 150.495 88.265 0)
+			(at 117.475 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2555,7 @@
 			)
 		)
 		(property "Description" "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"
-			(at 147.32 91.44 0)
+			(at 114.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2564,7 @@
 			)
 		)
 		(property "Digikey" "F2715CT-ND"
-			(at 155.575 86.36 0)
+			(at 122.555 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2573,7 @@
 			)
 		)
 		(property "Cost100" "95"
-			(at 147.32 91.44 0)
+			(at 114.3 139.7 0)
 			(effects
 				(font
 					(size 0.254 0.254)
@@ -2593,7 +2582,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 147.32 91.44 0)
+			(at 114.3 139.7 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -2602,7 +2591,7 @@
 			)
 		)
 		(property "LCSC" "C2682275"
-			(at 147.32 91.44 0)
+			(at 114.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2600,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0481"
-			(at 147.32 91.44 0)
+			(at 114.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2631,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:USB_C_Plug_USB2.0")
-		(at 111.76 66.04 0)
+		(at 78.74 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2650,7 +2639,7 @@
 		(dnp no)
 		(uuid "51601e67-514c-4451-9a6d-296311e33e63")
 		(property "Reference" "P1"
-			(at 101.6 46.99 0)
+			(at 68.58 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2648,7 @@
 			)
 		)
 		(property "Value" "USB_C_Plug_USB2.0"
-			(at 124.46 46.99 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2657,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 93.98 66.04 90)
+			(at 60.96 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +2666,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108131730_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
-			(at 99.06 66.04 90)
+			(at 66.04 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2675,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 111.76 66.04 0)
+			(at 78.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2684,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 111.76 66.04 0)
+			(at 78.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2693,7 @@
 			)
 		)
 		(property "Cost100" "7.19"
-			(at 88.9 66.04 90)
+			(at 55.88 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2702,7 @@
 			)
 		)
 		(property "LCSC" "C2765186"
-			(at 91.44 66.04 90)
+			(at 58.42 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2711,7 @@
 			)
 		)
 		(property "Notes" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 96.52 66.04 90)
+			(at 63.5 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2720,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 111.76 66.04 0)
+			(at 78.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2729,7 @@
 			)
 		)
 		(property "Cost @ 2.5k" "0.0334"
-			(at 111.76 66.04 0)
+			(at 78.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2788,7 @@
 	(symbol
 		(lib_name "R_US_20")
 		(lib_id "Swadge_Parts:R_US")
-		(at 162.56 90.17 180)
+		(at 129.54 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2807,7 +2796,7 @@
 		(dnp no)
 		(uuid "53fc0cd9-b1ff-4327-a5c2-a1ac828121a4")
 		(property "Reference" "R21"
-			(at 160.02 90.17 90)
+			(at 127 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2804,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 165.1 90.17 90)
+			(at 132.08 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2812,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 161.544 89.916 90)
+			(at 128.524 138.176 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 90.17 90)
+			(at 127 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2830,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 162.56 90.17 0)
+			(at 129.54 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2839,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 157.48 92.71 90)
+			(at 124.46 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2848,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 162.56 90.17 0)
+			(at 129.54 138.43 0)
 			(effects
 				(font
 					(size 0.254 0.254)
@@ -2868,7 +2857,7 @@
 			)
 		)
 		(property "LCSC" "C2907044"
-			(at 162.56 90.17 90)
+			(at 129.54 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2883,7 @@
 	(symbol
 		(lib_name "R_US_11")
 		(lib_id "Swadge_Parts:R_US")
-		(at 168.91 68.58 270)
+		(at 135.89 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2902,7 +2891,7 @@
 		(dnp no)
 		(uuid "7fb36b86-4780-428d-86d2-7c8b0ffaebde")
 		(property "Reference" "R19"
-			(at 165.354 66.548 90)
+			(at 132.334 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +2899,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 170.434 66.548 90)
+			(at 137.414 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2907,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 168.656 69.596 90)
+			(at 135.636 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +2916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 71.12 90)
+			(at 135.89 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +2925,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 168.91 68.58 0)
+			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +2934,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 171.45 73.66 90)
+			(at 138.43 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +2943,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 168.91 68.58 0)
+			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 0.254 0.254)
@@ -2963,7 +2952,7 @@
 			)
 		)
 		(property "LCSC" "C108661"
-			(at 168.91 68.58 90)
+			(at 135.89 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)

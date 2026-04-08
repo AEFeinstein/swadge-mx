@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "5e150f56-32d5-41f6-b3ca-7e16068cae41")
-	(paper "A4")
+	(paper "A")
 	(lib_symbols
 		(symbol "C_1"
 			(pin_numbers
@@ -1007,168 +1007,144 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 77.724 63.246)
-		(end 84.074 67.056)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 191 255 127 1)
-		)
-		(uuid 5cc434de-9ba6-4918-99eb-11a0a85dff1a)
-	)
-	(text "LEDs"
-		(exclude_from_sim no)
-		(at 78.74 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ffbc75bc-67e9-4747-9139-0d1dec303854")
-	)
 	(junction
-		(at 78.74 116.84)
+		(at 68.58 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12b0aef8-9f66-461a-8666-b108b6ca9891")
 	)
 	(junction
-		(at 104.14 83.82)
+		(at 93.98 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18cfb2df-382d-464c-b624-64797e8f3e50")
 	)
 	(junction
-		(at 241.3 116.84)
+		(at 231.14 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e5ce56e-4e3a-413b-b693-4173ecd045e3")
 	)
 	(junction
-		(at 78.74 88.9)
+		(at 68.58 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "257d0de2-22c8-4c45-83b7-71b768f33c6f")
 	)
 	(junction
-		(at 104.14 116.84)
+		(at 93.98 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32641a5c-11ff-4923-a321-afbf5156d194")
 	)
 	(junction
-		(at 180.34 116.84)
+		(at 170.18 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f17bb49-0d86-47d7-af0d-3eb993a42604")
 	)
 	(junction
-		(at 180.34 88.9)
+		(at 170.18 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55586eaa-4b6f-489b-9d4d-e67e8f54f324")
 	)
 	(junction
-		(at 129.54 83.82)
+		(at 119.38 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae2d9ce-b117-4baf-9cfc-b87055012e04")
 	)
 	(junction
-		(at 154.94 116.84)
+		(at 144.78 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5eb6bd65-883f-4984-b7c4-0e8647d8ae1a")
 	)
 	(junction
-		(at 180.34 83.82)
+		(at 170.18 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63d99180-2511-40e4-9656-1e5cd9e78394")
 	)
 	(junction
-		(at 231.14 88.9)
+		(at 220.98 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6791683d-92f6-4b3e-b30d-f5fd736d966b")
 	)
 	(junction
-		(at 139.7 116.84)
+		(at 129.54 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ad828b3-441c-4613-aa87-f7ad0f2a73b7")
 	)
 	(junction
-		(at 205.74 116.84)
+		(at 195.58 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71068557-794f-467b-a213-547e9824be08")
 	)
 	(junction
-		(at 231.14 83.82)
+		(at 220.98 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a345922c-698f-4bd0-89e8-84de209b9c10")
 	)
 	(junction
-		(at 129.54 88.9)
+		(at 119.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aff11975-619b-4c84-a308-477037123dde")
 	)
 	(junction
-		(at 129.54 116.84)
+		(at 119.38 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b465b7e9-8588-4538-8332-72bf3df2b0ee")
 	)
 	(junction
-		(at 88.9 116.84)
+		(at 78.74 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b615cccd-6eed-4573-9af9-32d8bc6fc042")
 	)
 	(junction
-		(at 190.5 116.84)
+		(at 180.34 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3733b38-ed0d-4165-8d7d-c376e9944d3c")
 	)
 	(junction
-		(at 205.74 83.82)
+		(at 195.58 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca111663-e024-49a3-8cd1-6e870955d4dc")
 	)
 	(junction
-		(at 154.94 83.82)
+		(at 144.78 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d794f7af-cfab-4da7-8baa-0164f9d23b8c")
 	)
 	(junction
-		(at 231.14 116.84)
+		(at 220.98 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6fb815c-71a7-4866-980b-74146b4562da")
 	)
 	(junction
-		(at 78.74 83.82)
+		(at 68.58 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f743b391-5cc5-4b42-a8e1-6350f414fdca")
 	)
 	(no_connect
-		(at 264.16 104.14)
+		(at 254 83.82)
 		(uuid "45b6e250-6349-4dc4-9182-1a3bd9bb23de")
 	)
 	(bus_entry
-		(at 45.72 101.6)
+		(at 35.56 81.28)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1178,7 +1154,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 116.84) (xy 104.14 116.84)
+			(xy 119.38 96.52) (xy 93.98 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 139.7 88.9)
+			(xy 119.38 68.58) (xy 129.54 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 83.82) (xy 231.14 88.9)
+			(xy 220.98 63.5) (xy 220.98 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1184,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 111.76) (xy 205.74 116.84)
+			(xy 195.58 91.44) (xy 195.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 147.32 104.14)
+			(xy 127 83.82) (xy 137.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 104.14 96.52)
+			(xy 93.98 63.5) (xy 93.98 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 83.82) (xy 256.54 96.52)
+			(xy 246.38 63.5) (xy 246.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1224,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 116.84) (xy 78.74 111.76)
+			(xy 68.58 96.52) (xy 68.58 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 129.54 116.84)
+			(xy 119.38 91.44) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 205.74 83.82)
+			(xy 170.18 63.5) (xy 195.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1254,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 83.82) (xy 78.74 83.82)
+			(xy 33.02 63.5) (xy 68.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1288,7 +1264,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 180.34 88.9)
+			(xy 170.18 63.5) (xy 170.18 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 121.92 104.14)
+			(xy 101.6 83.82) (xy 111.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +1284,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 129.54 88.9)
+			(xy 119.38 63.5) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1318,7 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 111.76) (xy 104.14 116.84)
+			(xy 93.98 91.44) (xy 93.98 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 116.84) (xy 231.14 116.84)
+			(xy 231.14 96.52) (xy 220.98 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1314,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 88.9) (xy 190.5 91.44)
+			(xy 180.34 68.58) (xy 180.34 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1324,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 231.14 96.52)
+			(xy 220.98 68.58) (xy 220.98 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 116.84) (xy 154.94 116.84)
+			(xy 170.18 96.52) (xy 144.78 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 116.84) (xy 139.7 116.84)
+			(xy 144.78 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 99.06) (xy 241.3 116.84)
+			(xy 231.14 78.74) (xy 231.14 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 111.76) (xy 256.54 116.84)
+			(xy 246.38 91.44) (xy 246.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 104.14) (xy 172.72 104.14)
+			(xy 152.4 83.82) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 104.14 83.82)
+			(xy 68.58 63.5) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1394,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 111.76) (xy 231.14 116.84)
+			(xy 220.98 91.44) (xy 220.98 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 154.94 96.52)
+			(xy 144.78 63.5) (xy 144.78 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1438,7 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 111.76) (xy 154.94 116.84)
+			(xy 144.78 91.44) (xy 144.78 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 88.9 91.44)
+			(xy 78.74 68.58) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1434,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 104.14) (xy 71.12 104.14)
+			(xy 55.88 83.82) (xy 60.96 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 99.06) (xy 139.7 116.84)
+			(xy 129.54 78.74) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 116.84) (xy 78.74 116.84)
+			(xy 78.74 96.52) (xy 68.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1464,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 180.34 83.82)
+			(xy 144.78 63.5) (xy 170.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 241.3 88.9)
+			(xy 220.98 68.58) (xy 231.14 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 116.84) (xy 78.74 116.84)
+			(xy 33.02 96.52) (xy 68.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1494,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 83.82) (xy 205.74 96.52)
+			(xy 195.58 63.5) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1528,7 +1504,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 129.54 83.82)
+			(xy 93.98 63.5) (xy 119.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1538,7 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 116.84) (xy 241.3 116.84)
+			(xy 246.38 96.52) (xy 231.14 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 104.14) (xy 248.92 104.14)
+			(xy 228.6 83.82) (xy 238.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1534,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 88.9) (xy 180.34 96.52)
+			(xy 170.18 68.58) (xy 170.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +1544,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 129.54 96.52)
+			(xy 119.38 68.58) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 104.14) (xy 96.52 104.14)
+			(xy 76.2 83.82) (xy 86.36 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 78.74 88.9)
+			(xy 68.58 63.5) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1574,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 104.14) (xy 223.52 104.14)
+			(xy 203.2 83.82) (xy 213.36 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1584,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 78.74 96.52)
+			(xy 68.58 68.58) (xy 68.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1594,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 190.5 116.84)
+			(xy 180.34 78.74) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1628,7 +1604,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 116.84) (xy 180.34 116.84)
+			(xy 180.34 96.52) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1614,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 139.7 91.44)
+			(xy 129.54 68.58) (xy 129.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1624,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 116.84) (xy 190.5 116.84)
+			(xy 195.58 96.52) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1634,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 111.76) (xy 180.34 116.84)
+			(xy 170.18 91.44) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 154.94 83.82)
+			(xy 119.38 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 58.42 104.14)
+			(xy 38.1 83.82) (xy 48.26 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 83.82) (xy 231.14 83.82)
+			(xy 195.58 63.5) (xy 220.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1674,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 116.84) (xy 88.9 116.84)
+			(xy 93.98 96.52) (xy 78.74 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1684,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 129.54 116.84)
+			(xy 129.54 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1718,7 +1694,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 116.84) (xy 205.74 116.84)
+			(xy 220.98 96.52) (xy 195.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1728,7 +1704,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 88.9) (xy 241.3 91.44)
+			(xy 231.14 68.58) (xy 231.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1738,7 +1714,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 83.82) (xy 256.54 83.82)
+			(xy 220.98 63.5) (xy 246.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1748,7 +1724,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 198.12 104.14)
+			(xy 177.8 83.82) (xy 187.96 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 99.06) (xy 88.9 116.84)
+			(xy 78.74 78.74) (xy 78.74 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1744,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 88.9) (xy 190.5 88.9)
+			(xy 170.18 68.58) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1778,7 +1754,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 88.9 88.9)
+			(xy 68.58 68.58) (xy 78.74 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1788,7 +1764,7 @@
 	)
 	(bus
 		(pts
-			(xy 43.18 101.6) (xy 45.72 101.6)
+			(xy 33.02 81.28) (xy 35.56 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +1773,7 @@
 		(uuid "feb8e0d1-bc34-4f6a-af95-196e70cab5a1")
 	)
 	(label "L0-1"
-		(at 71.12 104.14 180)
+		(at 60.96 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1807,7 +1783,7 @@
 		(uuid "1d2df08c-27fe-4013-979c-940d852d1c31")
 	)
 	(label "L5-6"
-		(at 198.12 104.14 180)
+		(at 187.96 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1817,7 +1793,7 @@
 		(uuid "254ac13c-7de8-4fec-b4f8-b5e753cf3b89")
 	)
 	(label "L1-2"
-		(at 96.52 104.14 180)
+		(at 86.36 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1827,7 +1803,7 @@
 		(uuid "4d6deae8-2d2b-4498-9b3c-e87f1a814739")
 	)
 	(label "COMM.LED"
-		(at 48.26 104.14 0)
+		(at 38.1 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1837,7 +1813,7 @@
 		(uuid "76ad7684-dab2-4b30-b335-4b7f7a819c60")
 	)
 	(label "L7-8"
-		(at 248.92 104.14 180)
+		(at 238.76 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1847,7 +1823,7 @@
 		(uuid "7e92e466-9abf-40e0-97eb-9e4aea8094fc")
 	)
 	(label "L2-3"
-		(at 121.92 104.14 180)
+		(at 111.76 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1857,7 +1833,7 @@
 		(uuid "9e6ef929-f3d5-4618-a845-06fa591ae567")
 	)
 	(label "L3-4"
-		(at 147.32 104.14 180)
+		(at 137.16 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1867,7 +1843,7 @@
 		(uuid "c77ba9b8-4ecf-466c-88c8-273daeb9952a")
 	)
 	(label "L6-7"
-		(at 223.52 104.14 180)
+		(at 213.36 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1877,7 +1853,7 @@
 		(uuid "cdaba85b-6d6b-4f9c-bd46-0033c1b11d37")
 	)
 	(label "L4-5"
-		(at 172.72 104.14 180)
+		(at 162.56 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1888,7 +1864,7 @@
 	)
 	(hierarchical_label "COMM{LED}"
 		(shape input)
-		(at 43.18 101.6 180)
+		(at 33.02 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1899,7 +1875,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 43.18 116.84 180)
+		(at 33.02 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1910,7 +1886,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 43.18 83.82 180)
+		(at 33.02 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1922,7 +1898,7 @@
 	(symbol
 		(lib_name "R_US_36")
 		(lib_id "Swadge_Parts:R_US")
-		(at 62.23 104.14 90)
+		(at 52.07 83.82 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1931,7 +1907,7 @@
 		(dnp no)
 		(uuid "13886ffe-dd53-4eba-847d-e9bc881b8b44")
 		(property "Reference" "R22"
-			(at 60.96 101.6 90)
+			(at 50.8 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +1915,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 60.96 106.68 90)
+			(at 50.8 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1923,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:R_0603_1608Metric"
-			(at 62.484 105.156 90)
+			(at 52.324 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 106.68 90)
+			(at 52.07 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1941,7 @@
 			)
 		)
 		(property "Description" "Resistor US symbol"
-			(at 62.23 104.14 0)
+			(at 52.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +1950,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 59.69 109.22 90)
+			(at 49.53 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1959,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 62.23 104.14 0)
+			(at 52.07 83.82 0)
 			(effects
 				(font
 					(size 0.254 0.254)
@@ -1992,7 +1968,7 @@
 			)
 		)
 		(property "LCSC" "C108661"
-			(at 62.23 104.14 0)
+			(at 52.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +1993,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SK6812-SIDE-A")
-		(at 129.54 104.14 0)
+		(at 119.38 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2025,7 +2001,7 @@
 		(dnp no)
 		(uuid "18d3b882-ee49-4dd2-b2fb-6cac35ccc9cc")
 		(property "Reference" "D6"
-			(at 130.81 97.79 0)
+			(at 120.65 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2033,7 +2009,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 139.7 111.76 0)
+			(at 129.54 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2041,7 +2017,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
-			(at 129.54 93.98 0)
+			(at 119.38 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2050,7 +2026,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 128.27 88.9 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2059,7 +2035,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 104.14 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2044,7 @@
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
-			(at 129.54 91.44 0)
+			(at 119.38 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2053,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 129.54 86.36 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2062,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 129.54 104.14 0)
+			(at 119.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2071,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 149.098 99.314 0)
+			(at 138.938 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2080,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0552"
-			(at 142.748 97.028 0)
+			(at 132.588 76.708 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2135,7 +2111,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SK6812-SIDE-A")
-		(at 231.14 104.14 0)
+		(at 220.98 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2143,7 +2119,7 @@
 		(dnp no)
 		(uuid "51f64b4a-bed3-40e7-8d4d-999894accbef")
 		(property "Reference" "D10"
-			(at 232.41 97.79 0)
+			(at 222.25 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2151,7 +2127,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 241.3 111.76 0)
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2159,7 +2135,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
-			(at 231.14 93.98 0)
+			(at 220.98 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2168,7 +2144,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 229.87 88.9 0)
+			(at 219.71 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2177,7 +2153,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 104.14 0)
+			(at 220.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2162,7 @@
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
-			(at 231.14 91.44 0)
+			(at 220.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2171,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 231.14 86.36 0)
+			(at 220.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2180,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 231.14 104.14 0)
+			(at 220.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2189,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 250.698 99.314 0)
+			(at 240.538 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2198,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0552"
-			(at 244.348 97.028 0)
+			(at 234.188 76.708 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2254,7 +2230,7 @@
 	(symbol
 		(lib_name "C_24")
 		(lib_id "Swadge_Parts:C")
-		(at 241.3 95.25 0)
+		(at 231.14 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2262,7 +2238,7 @@
 		(dnp no)
 		(uuid "569f1942-459b-469e-8bc2-dff598f8f25e")
 		(property "Reference" "C29"
-			(at 241.935 92.71 0)
+			(at 231.775 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2247,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 241.935 97.79 0)
+			(at 231.775 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2256,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 242.2652 99.06 0)
+			(at 232.1052 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 95.25 0)
+			(at 231.14 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2274,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 241.3 95.25 0)
+			(at 231.14 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2283,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 244.475 90.17 0)
+			(at 234.315 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2292,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 241.3 95.25 0)
+			(at 231.14 74.93 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -2325,7 +2301,7 @@
 			)
 		)
 		(property "LCSC" "C29936"
-			(at 241.3 95.25 0)
+			(at 231.14 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2326,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SK6812-SIDE-A")
-		(at 78.74 104.14 0)
+		(at 68.58 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2358,7 +2334,7 @@
 		(dnp no)
 		(uuid "600449c1-75c9-4c5e-bdff-37bb5ef723e1")
 		(property "Reference" "D4"
-			(at 80.01 97.79 0)
+			(at 69.85 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2366,7 +2342,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 88.9 111.76 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2374,7 +2350,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
-			(at 78.74 93.98 0)
+			(at 68.58 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2383,7 +2359,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 77.47 88.9 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2392,7 +2368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 104.14 0)
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2377,7 @@
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
-			(at 78.74 91.44 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2386,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 78.74 86.36 0)
+			(at 68.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2395,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 78.74 104.14 0)
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2404,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 98.298 99.314 0)
+			(at 88.138 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +2413,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0552"
-			(at 91.948 97.028 0)
+			(at 81.788 76.708 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2468,7 +2444,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SK6812-SIDE-A")
-		(at 256.54 104.14 0)
+		(at 246.38 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2476,7 +2452,7 @@
 		(dnp no)
 		(uuid "7b0fcfd6-04bc-4f1b-9cdf-a5802170f19d")
 		(property "Reference" "D11"
-			(at 257.81 97.79 0)
+			(at 247.65 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2484,7 +2460,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 266.7 111.76 0)
+			(at 256.54 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2492,7 +2468,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
-			(at 256.54 93.98 0)
+			(at 246.38 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2501,7 +2477,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 255.27 88.9 0)
+			(at 245.11 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2510,7 +2486,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 104.14 0)
+			(at 246.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2495,7 @@
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
-			(at 256.54 91.44 0)
+			(at 246.38 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2504,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 256.54 86.36 0)
+			(at 246.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2513,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 256.54 104.14 0)
+			(at 246.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2522,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 276.098 99.314 0)
+			(at 265.938 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2531,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0552"
-			(at 269.748 97.028 0)
+			(at 259.588 76.708 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2586,7 +2562,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SK6812-SIDE-A")
-		(at 154.94 104.14 0)
+		(at 144.78 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2594,7 +2570,7 @@
 		(dnp no)
 		(uuid "90b780aa-ec00-4512-8bd4-ea6d7a4b0bfe")
 		(property "Reference" "D7"
-			(at 156.21 97.79 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2602,7 +2578,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 165.1 111.76 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2610,7 +2586,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
-			(at 154.94 93.98 0)
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2619,7 +2595,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 153.67 88.9 0)
+			(at 143.51 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2628,7 +2604,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 104.14 0)
+			(at 144.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2613,7 @@
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
-			(at 154.94 91.44 0)
+			(at 144.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2622,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 154.94 86.36 0)
+			(at 144.78 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2631,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 154.94 104.14 0)
+			(at 144.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2640,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 174.498 99.314 0)
+			(at 164.338 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2649,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0552"
-			(at 168.148 97.028 0)
+			(at 157.988 76.708 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2704,7 +2680,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SK6812-SIDE-A")
-		(at 104.14 104.14 0)
+		(at 93.98 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2712,7 +2688,7 @@
 		(dnp no)
 		(uuid "b425d9db-05e1-4ce5-8e86-6b4fad1f09b2")
 		(property "Reference" "D5"
-			(at 105.41 97.79 0)
+			(at 95.25 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2720,7 +2696,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 114.3 111.76 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2728,7 +2704,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
-			(at 104.14 93.98 0)
+			(at 93.98 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2737,7 +2713,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 102.87 88.9 0)
+			(at 92.71 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2746,7 +2722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 104.14 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +2731,7 @@
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
-			(at 104.14 91.44 0)
+			(at 93.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +2740,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 104.14 86.36 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +2749,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 104.14 104.14 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +2758,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 123.698 99.314 0)
+			(at 113.538 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +2767,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0552"
-			(at 117.348 97.028 0)
+			(at 107.188 76.708 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2822,7 +2798,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SK6812-SIDE-A")
-		(at 180.34 104.14 0)
+		(at 170.18 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2830,7 +2806,7 @@
 		(dnp no)
 		(uuid "bb8e1321-6841-4c44-b9d6-98db39b8e788")
 		(property "Reference" "D8"
-			(at 181.61 97.79 0)
+			(at 171.45 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2838,7 +2814,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 190.5 111.76 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2846,7 +2822,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
-			(at 180.34 93.98 0)
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2855,7 +2831,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 179.07 88.9 0)
+			(at 168.91 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2864,7 +2840,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 104.14 0)
+			(at 170.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2849,7 @@
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
-			(at 180.34 91.44 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2858,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 180.34 86.36 0)
+			(at 170.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2867,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 180.34 104.14 0)
+			(at 170.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +2876,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 199.898 99.314 0)
+			(at 189.738 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +2885,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0552"
-			(at 193.548 97.028 0)
+			(at 183.388 76.708 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2940,7 +2916,7 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:SK6812-SIDE-A")
-		(at 205.74 104.14 0)
+		(at 195.58 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2948,7 +2924,7 @@
 		(dnp no)
 		(uuid "c2630870-6f08-42d2-86fa-87ab829d64aa")
 		(property "Reference" "D9"
-			(at 207.01 97.79 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2956,7 +2932,7 @@
 			)
 		)
 		(property "Value" "SK6812-SIDE-A"
-			(at 215.9 111.76 0)
+			(at 205.74 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2964,7 +2940,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:SK6812_SIDE_2"
-			(at 205.74 93.98 0)
+			(at 195.58 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2973,7 +2949,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-			(at 204.47 88.9 0)
+			(at 194.31 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2982,7 +2958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 104.14 0)
+			(at 195.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2967,7 @@
 			)
 		)
 		(property "Digikey" "1528-4691-ND"
-			(at 205.74 91.44 0)
+			(at 195.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +2976,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 205.74 86.36 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +2985,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 205.74 104.14 0)
+			(at 195.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +2994,7 @@
 			)
 		)
 		(property "LCSC" "C2890037"
-			(at 225.298 99.314 0)
+			(at 215.138 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3003,7 @@
 			)
 		)
 		(property "Cost@2500" "0.0552"
-			(at 218.948 97.028 0)
+			(at 208.788 76.708 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3059,7 +3035,7 @@
 	(symbol
 		(lib_name "C_2")
 		(lib_id "Swadge_Parts:C")
-		(at 139.7 95.25 0)
+		(at 129.54 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3067,7 +3043,7 @@
 		(dnp no)
 		(uuid "c7a2f930-28a1-4c7e-b96d-739ba39c1277")
 		(property "Reference" "C27"
-			(at 140.335 92.71 0)
+			(at 130.175 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3052,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 140.335 97.79 0)
+			(at 130.175 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3061,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 140.6652 99.06 0)
+			(at 130.5052 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 95.25 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +3079,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 95.25 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3088,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 142.875 90.17 0)
+			(at 132.715 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3097,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 139.7 95.25 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -3130,7 +3106,7 @@
 			)
 		)
 		(property "LCSC" "C29936"
-			(at 139.7 95.25 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3132,7 @@
 	(symbol
 		(lib_name "C_1")
 		(lib_id "Swadge_Parts:C")
-		(at 88.9 95.25 0)
+		(at 78.74 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3164,7 +3140,7 @@
 		(dnp no)
 		(uuid "c995d27b-7a46-4093-82f1-d947548d3773")
 		(property "Reference" "C26"
-			(at 89.535 92.71 0)
+			(at 79.375 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3149,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 89.535 97.79 0)
+			(at 79.375 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3158,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 89.8652 99.06 0)
+			(at 79.7052 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 95.25 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3176,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 88.9 95.25 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3185,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 92.075 90.17 0)
+			(at 81.915 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3194,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 88.9 95.25 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -3227,7 +3203,7 @@
 			)
 		)
 		(property "LCSC" "C29936"
-			(at 88.9 95.25 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3229,7 @@
 	(symbol
 		(lib_name "C_32")
 		(lib_id "Swadge_Parts:C")
-		(at 190.5 95.25 0)
+		(at 180.34 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3261,7 +3237,7 @@
 		(dnp no)
 		(uuid "edd5a605-16c4-4a4f-9490-63538fb1c943")
 		(property "Reference" "C28"
-			(at 191.135 92.71 0)
+			(at 180.975 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3246,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 191.135 97.79 0)
+			(at 180.975 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3255,7 @@
 			)
 		)
 		(property "Footprint" "Swadge_Parts:C_0603_1608Metric"
-			(at 191.4652 99.06 0)
+			(at 181.3052 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3264,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 95.25 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +3273,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 95.25 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3282,7 @@
 			)
 		)
 		(property "Digikey" "~"
-			(at 193.675 90.17 0)
+			(at 183.515 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3291,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 190.5 95.25 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -3324,7 +3300,7 @@
 			)
 		)
 		(property "LCSC" "C29936"
-			(at 190.5 95.25 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
