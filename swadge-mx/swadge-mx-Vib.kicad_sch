@@ -1398,7 +1398,7 @@
 		)
 		(uuid "0d7ed8ba-a706-4251-8117-eef46989ce46")
 	)
-	(hierarchical_label "2V8_LCD"
+	(hierarchical_label "3.3V"
 		(shape input)
 		(at 114.3 66.04 180)
 		(effects

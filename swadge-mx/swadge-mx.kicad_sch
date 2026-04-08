@@ -3370,6 +3370,12 @@
 		(uuid "264f579a-dd94-452a-9fcb-95ea22daddf6")
 	)
 	(junction
+		(at 147.32 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267f9d4b-4f0f-4e6e-9a82-9950f3c909f4")
+	)
+	(junction
 		(at 76.2 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3617,16 +3623,6 @@
 			(type default)
 		)
 		(uuid "05f61bd3-d7bf-4a6e-a79b-e9bdc4095871")
-	)
-	(wire
-		(pts
-			(xy 190.5 71.12) (xy 190.5 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "093da5a4-ae84-408c-8e06-1c6753fb3e00")
 	)
 	(wire
 		(pts
@@ -3938,6 +3934,16 @@
 		)
 		(uuid "3e574d10-dc1e-4678-893e-eeb0bcb174e8")
 	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb64fe0-38d0-4524-b1f3-9e949f1111a2")
+	)
 	(bus
 		(pts
 			(xy 76.2 38.1) (xy 119.38 38.1)
@@ -4180,23 +4186,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 147.32 124.46)
+			(xy 147.32 66.04) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "60797e20-5c30-4c94-bd44-2fe1165a51ca")
-	)
-	(wire
-		(pts
-			(xy 154.94 86.36) (xy 154.94 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63626ba4-90ac-4ce1-9540-6901d8128035")
 	)
 	(wire
 		(pts
@@ -4277,16 +4273,6 @@
 			(type default)
 		)
 		(uuid "6e916865-9aba-4122-9b77-68a0eb41b65a")
-	)
-	(wire
-		(pts
-			(xy 190.5 86.36) (xy 154.94 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9f7681-5453-4b1b-aaa3-93715ce8133f")
 	)
 	(bus
 		(pts
@@ -4510,16 +4496,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 190.5 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac9d95b3-8cb0-4f5e-810b-c77bf7b7b5c9")
-	)
-	(wire
-		(pts
 			(xy 340.36 83.82) (xy 340.36 88.9)
 		)
 		(stroke
@@ -4580,13 +4556,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 93.98) (xy 157.48 93.98)
+			(xy 147.32 93.98) (xy 147.32 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b683f66e-38c9-4f6d-ae48-e662f274cf68")
+		(uuid "b6b8682c-e3b4-4b3d-8cab-47b667ece730")
 	)
 	(bus
 		(pts
@@ -6965,16 +6941,6 @@
 				(justify left top)
 			)
 		)
-		(pin "2V8_LCD" input
-			(at 157.48 93.98 180)
-			(uuid "2a112b4a-abd4-41e0-ac51-33cae8eafb20")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GND" input
 			(at 157.48 104.14 180)
 			(uuid "2b0923be-5dfb-422f-922e-553e1919bae6")
@@ -6988,6 +6954,16 @@
 		(pin "VM_CON" input
 			(at 157.48 99.06 180)
 			(uuid "59dfeb7b-d035-4871-86d2-11b26a4fbf35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3V" input
+			(at 157.48 93.98 180)
+			(uuid "88b2c5e5-3df8-4d1f-bfdc-f6a9fd5fa2ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,16 +7083,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "2V8_LCD" output
-			(at 182.88 71.12 0)
-			(uuid "29de99e6-8289-42bf-aa66-03e21f37cf9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "DISP{TFT}" input
