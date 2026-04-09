@@ -5,194 +5,6 @@
 	(uuid "21f68831-092e-4071-b6e4-373b01c90a4c")
 	(paper "A")
 	(lib_symbols
-		(symbol "B3FS-4002P_1"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 6.35 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "B3FS-4002P"
-				(at 6.35 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Swadge_Parts:B3FS4002P"
-				(at 11.43 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_XUNPU-TS-1003S-04526_C455218.pdf"
-				(at 20.32 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Black Cap Tactile Switch, SPST-NO 50 mA @ 24 V dc 0.4mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "SW1278CT-ND"
-				(at 12.7 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost100" "76"
-				(at 7.62 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Substitutable" "Y"
-				(at 3.81 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Notes" "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C455218"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "B3FS-4002P_1_0_0"
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 5.08)
-					(name "COM_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "COM_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 24.13 0 180)
-					(length 5.08)
-					(name "NO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 24.13 -2.54 180)
-					(length 5.08)
-					(name "NO_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "B3FS-4002P_1_0_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 19.05 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Swadge_Parts:B3FS-4002P"
 			(pin_names
 				(offset 0.762)
@@ -201,25 +13,25 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 6.35 2.54 0)
+				(at 6.35 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify bottom)
 				)
 			)
 			(property "Value" "B3FS-4002P"
-				(at 6.35 -5.08 0)
+				(at 6.35 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify top)
 				)
 			)
 			(property "Footprint" "Swadge_Parts:B3FS4002P"
-				(at 11.43 11.43 0)
+				(at 8.89 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -229,7 +41,7 @@
 				)
 			)
 			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_XUNPU-TS-1003S-04526_C455218.pdf"
-				(at 20.32 0 0)
+				(at -32.512 27.178 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -239,7 +51,7 @@
 				)
 			)
 			(property "Description" "Black Cap Tactile Switch, SPST-NO 50 mA @ 24 V dc 0.4mm"
-				(at 0 0 0)
+				(at -1.778 18.542 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -248,16 +60,7 @@
 				)
 			)
 			(property "Digikey" "SW1278CT-ND"
-				(at 12.7 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost100" "76"
-				(at 7.62 11.43 0)
+				(at 10.16 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -266,7 +69,7 @@
 				)
 			)
 			(property "Substitutable" "Y"
-				(at 3.81 12.7 0)
+				(at 1.27 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -275,7 +78,7 @@
 				)
 			)
 			(property "Notes" "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q."
-				(at 0 0 0)
+				(at -3.302 22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -284,7 +87,7 @@
 				)
 			)
 			(property "LCSC" "C455218"
-				(at 0 0 0)
+				(at -3.048 24.638 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -292,90 +95,314 @@
 					(hide yes)
 				)
 			)
+			(property "Cost@2500" "0.0478"
+				(at -2.032 20.828 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "B3FS-4002P_0_0"
-				(pin bidirectional line
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 10.16 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 7.62 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.2286)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0) (xy 8.89 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B3FS-4002P_1_0"
+				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "COM_1"
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "COM_2"
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 24.13 0 180)
-					(length 5.08)
-					(name "NO_1"
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 24.13 -2.54 180)
-					(length 5.08)
-					(name "NO_2"
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
-					)
-				)
-			)
-			(symbol "B3FS-4002P_0_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 19.05 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -785,6 +812,160 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 33.02 21.59)
+		(end 114.3 105.41)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 283d03b6-c173-497e-9199-e26fbdcda77b)
+	)
+	(rectangle
+		(start 33.02 105.41)
+		(end 114.3 146.05)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bf923acf-5c7c-4cba-8c3b-b097a88f801c)
+	)
+	(rectangle
+		(start 33.02 146.05)
+		(end 114.3 186.69)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf40cf5b-6e90-49a8-8447-a5b30353825f)
+	)
+	(text "Start"
+		(exclude_from_sim no)
+		(at 88.9 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "031b11aa-eb60-49c9-8508-21a6954351dc")
+	)
+	(text "D-Pad"
+		(exclude_from_sim no)
+		(at 38.862 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fdab8a2-8651-4eaa-9f7c-206fa2efccaa")
+	)
+	(text "A & B"
+		(exclude_from_sim no)
+		(at 42.418 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e9f5953-9a40-4890-a5e5-a08d518f8c76")
+	)
+	(text "Select"
+		(exclude_from_sim no)
+		(at 88.9 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46cdc8cd-d85d-4f69-a9f1-5719a30e93e3")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 88.9 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53879877-6cbf-497a-a234-d792563997d4")
+	)
+	(text "Left"
+		(exclude_from_sim no)
+		(at 88.9 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "567f451e-aa37-423e-9058-738acc09e912")
+	)
+	(text "Pause & Menu"
+		(exclude_from_sim no)
+		(at 41.91 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6059b63e-8ecc-48c0-b526-e1260fc8ebfe")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 88.9 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7faf9093-aa97-48e5-97c5-4e5a25ce5f11")
+	)
+	(text "Up"
+		(exclude_from_sim no)
+		(at 88.9 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98c02d1d-2a2d-40db-8bf6-3bee2caa21dd")
+	)
+	(text "Right"
+		(exclude_from_sim no)
+		(at 88.646 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d56c5024-78a8-45ae-bc2f-451868210ed6")
+	)
+	(text "Down"
+		(exclude_from_sim no)
+		(at 88.9 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6da6ac7-7cd8-4965-8625-013f875febcd")
+	)
 	(junction
 		(at 86.36 81.28)
 		(diameter 0)
@@ -792,16 +973,22 @@
 		(uuid "0b6a992c-8f42-494c-9343-c33a5f1dc577")
 	)
 	(junction
-		(at 92.71 170.18)
+		(at 86.36 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f2d88d6-5cf4-42c8-8c03-e9ffc510fc1f")
+		(uuid "13f7d21d-e602-44da-8b5a-b34cfc0096d0")
 	)
 	(junction
 		(at 86.36 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "164157f4-0630-4d68-9a60-f2d38c498a90")
+	)
+	(junction
+		(at 81.28 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c1f325-81ef-48e4-aa16-f5b7c2facb91")
 	)
 	(junction
 		(at 81.28 109.22)
@@ -822,16 +1009,22 @@
 		(uuid "3467fdf2-172f-4fde-a125-5e41097fa762")
 	)
 	(junction
+		(at 99.06 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e5b8b68-eab5-47d5-835b-9a46ed005c4e")
+	)
+	(junction
 		(at 86.36 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "525d6220-1a46-40b2-8043-27a71f2a005c")
 	)
 	(junction
-		(at 99.06 170.18)
+		(at 99.06 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "571c2b72-769e-45fc-8cc5-1a255bc7318a")
+		(uuid "55b405c2-b127-4fbe-a4b6-6f17d30c315d")
 	)
 	(junction
 		(at 81.28 68.58)
@@ -846,34 +1039,22 @@
 		(uuid "67ac45bd-4e23-46f7-9d4f-1e2a0be4d8db")
 	)
 	(junction
-		(at 99.06 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a5e14ab-a394-4b38-82ef-60a2b80c053a")
-	)
-	(junction
 		(at 86.36 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80c247c4-b8a0-4cdc-a667-a0bfb78cd0b5")
 	)
 	(junction
-		(at 92.71 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80fcdc55-512d-4698-85c1-e5f27106c1bd")
-	)
-	(junction
-		(at 68.58 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8785ad1a-9623-48e0-8d1d-26a33e472f85")
-	)
-	(junction
 		(at 99.06 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88f10358-1fb0-4ab7-857d-b92dfcb1ff72")
+	)
+	(junction
+		(at 86.36 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96717ad4-4fed-4820-b95c-c6ca756faec7")
 	)
 	(junction
 		(at 99.06 60.96)
@@ -888,10 +1069,10 @@
 		(uuid "99250e33-8690-4462-9e5e-d219530d56e6")
 	)
 	(junction
-		(at 68.58 167.64)
+		(at 81.28 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "acb33c68-d3e5-43b0-b12e-523c8c0d09a2")
+		(uuid "ab53838d-ca26-4d6b-9806-3c557014f8fe")
 	)
 	(junction
 		(at 81.28 129.54)
@@ -933,7 +1114,7 @@
 		(uuid "2f5a64c3-c73e-47a1-9561-2b1ca08c7dde")
 	)
 	(bus_entry
-		(at 55.88 149.86)
+		(at 55.88 147.32)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -978,7 +1159,7 @@
 		(uuid "8b3cd302-f41b-4c18-9975-3dfd012effdd")
 	)
 	(bus_entry
-		(at 55.88 165.1)
+		(at 55.88 167.64)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1037,6 +1218,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 162.56) (xy 99.06 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbdbbf3-1941-470d-a66a-ed7d15c704f1")
+	)
+	(wire
+		(pts
 			(xy 81.28 109.22) (xy 86.36 109.22)
 		)
 		(stroke
@@ -1067,16 +1258,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 154.94) (xy 92.71 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cf57b66-c3df-4e6d-b4db-0814ca650a99")
-	)
-	(wire
-		(pts
 			(xy 99.06 81.28) (xy 86.36 81.28)
 		)
 		(stroke
@@ -1084,16 +1265,6 @@
 			(type default)
 		)
 		(uuid "271662f6-f1c2-439d-a3c0-53f07049b4d3")
-	)
-	(wire
-		(pts
-			(xy 68.58 152.4) (xy 68.58 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "277287c4-c85d-450e-828c-d13705648884")
 	)
 	(wire
 		(pts
@@ -1107,13 +1278,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 177.8) (xy 99.06 170.18)
+			(xy 86.36 182.88) (xy 99.06 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bacd60d-3cf9-4dba-aadf-f8a8f3028d90")
+		(uuid "33853845-72cd-4461-9807-143e28c69db8")
+	)
+	(wire
+		(pts
+			(xy 58.42 149.86) (xy 81.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f1a378-9e94-454a-b211-e530ef1f44e8")
 	)
 	(wire
 		(pts
@@ -1124,16 +1305,6 @@
 			(type default)
 		)
 		(uuid "426a37a6-df48-4a7d-ad15-26869513c19a")
-	)
-	(wire
-		(pts
-			(xy 68.58 167.64) (xy 58.42 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46995fd3-abb2-45e9-9f59-dcf8420528bd")
 	)
 	(wire
 		(pts
@@ -1167,16 +1338,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 170.18) (xy 92.71 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54e7e6b3-2d9b-4a49-89a6-ba18ece064a8")
-	)
-	(wire
-		(pts
 			(xy 81.28 48.26) (xy 86.36 48.26)
 		)
 		(stroke
@@ -1187,23 +1348,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 152.4) (xy 58.42 152.4)
+			(xy 81.28 149.86) (xy 86.36 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57425f94-d57f-477b-93b7-c88b6752566e")
-	)
-	(wire
-		(pts
-			(xy 92.71 167.64) (xy 92.71 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b3ea17b-f2d8-4603-88d6-bb6e5a0b8ec3")
+		(uuid "56d8586d-104a-47a5-9275-980c6766c131")
 	)
 	(bus
 		(pts
@@ -1237,13 +1388,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 154.94) (xy 99.06 170.18)
+			(xy 81.28 182.88) (xy 86.36 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d229a97-6629-4aa5-8209-ba7874f3aea9")
+		(uuid "6a34efbd-4ea0-4d5b-af54-34738d0c3058")
 	)
 	(wire
 		(pts
@@ -1267,7 +1418,7 @@
 	)
 	(bus
 		(pts
-			(xy 55.88 149.86) (xy 55.88 165.1)
+			(xy 55.88 147.32) (xy 55.88 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1317,7 +1468,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 177.8) (xy 99.06 177.8)
+			(xy 81.28 170.18) (xy 86.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9066c236-7d1c-48c0-9767-8c209e475925")
+	)
+	(wire
+		(pts
+			(xy 106.68 182.88) (xy 99.06 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +1488,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 142.24) (xy 99.06 154.94)
+			(xy 99.06 142.24) (xy 99.06 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1344,16 +1505,6 @@
 			(type default)
 		)
 		(uuid "b1f9f624-a79f-42f9-9c9c-812bea7f33e9")
-	)
-	(wire
-		(pts
-			(xy 68.58 167.64) (xy 68.58 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ce6e96-602b-445c-93ce-e004cda01f86")
 	)
 	(wire
 		(pts
@@ -1387,16 +1538,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 152.4) (xy 92.71 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce0637cd-bc5a-4bef-9fbd-992f3479979d")
-	)
-	(wire
-		(pts
 			(xy 99.06 142.24) (xy 99.06 121.92)
 		)
 		(stroke
@@ -1425,6 +1566,16 @@
 		)
 		(uuid "e463bd1b-7855-4389-a470-74e22f94f86f")
 	)
+	(wire
+		(pts
+			(xy 86.36 162.56) (xy 99.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c635aa-780f-4b73-8743-e413b578f2f5")
+	)
 	(bus
 		(pts
 			(xy 55.88 106.68) (xy 55.88 127)
@@ -1434,6 +1585,16 @@
 			(type default)
 		)
 		(uuid "eb70fedc-d9b2-468f-8a5d-9924053e8555")
+	)
+	(wire
+		(pts
+			(xy 58.42 170.18) (xy 81.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc78baa-7867-4fa2-a7bf-bbdc4da6a7c3")
 	)
 	(wire
 		(pts
@@ -1467,13 +1628,23 @@
 	)
 	(bus
 		(pts
-			(xy 55.88 127) (xy 55.88 149.86)
+			(xy 55.88 127) (xy 55.88 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f901f77d-6156-43b9-bccb-3793fa02a0d3")
+	)
+	(wire
+		(pts
+			(xy 81.28 162.56) (xy 86.36 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad51c65-037d-4bc2-906b-4d8293d0c295")
 	)
 	(bus
 		(pts
@@ -1486,7 +1657,7 @@
 		(uuid "fb0863a3-719e-4fc4-85eb-d857f52f655a")
 	)
 	(label "IO.BTN_8"
-		(at 58.42 167.64 0)
+		(at 58.42 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1546,7 +1717,7 @@
 		(uuid "6523a302-a4a1-45ee-882e-227182faa233")
 	)
 	(label "IO.BTN_7"
-		(at 58.42 152.4 0)
+		(at 58.42 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1567,7 +1738,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 106.68 177.8 0)
+		(at 106.68 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1598,7 +1769,7 @@
 		(dnp no)
 		(uuid "030d5f40-cdb2-46c8-ba5e-f941825e6372")
 		(property "Reference" "SW4"
-			(at 79.502 91.186 0)
+			(at 79.502 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1778,7 @@
 			)
 		)
 		(property "Value" "YTS-D003-1A"
-			(at 89.662 85.344 0)
+			(at 79.248 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1901,7 @@
 		(dnp no)
 		(uuid "1d850c49-1b9d-4666-9d46-66f80f5df6fe")
 		(property "Reference" "SW5"
-			(at 79.502 111.506 0)
+			(at 79.502 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1910,7 @@
 			)
 		)
 		(property "Value" "YTS-D003-1A"
-			(at 90.17 105.664 0)
+			(at 79.248 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +2033,7 @@
 		(dnp no)
 		(uuid "278ded9c-0b79-415b-be20-4287aa9c3b8e")
 		(property "Reference" "SW6"
-			(at 79.502 131.826 0)
+			(at 79.502 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +2042,7 @@
 			)
 		)
 		(property "Value" "YTS-D003-1A"
-			(at 90.17 125.73 0)
+			(at 79.502 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2420,8 @@
 	)
 	(symbol
 		(lib_id "Swadge_Parts:B3FS-4002P")
-		(at 68.58 167.64 0)
+		(at 81.28 170.18 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2257,23 +2429,25 @@
 		(dnp no)
 		(uuid "92e203d7-8ba7-4b28-baea-19d935d29118")
 		(property "Reference" "SW8"
-			(at 80.645 161.29 0)
+			(at 76.962 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "B3FS-4002P"
-			(at 80.645 163.83 0)
+			(at 73.152 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "Swadge_Parts:B3FS4002P"
-			(at 80.01 156.21 0)
+			(at 69.85 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2457,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_XUNPU-TS-1003S-04526_C455218.pdf"
-			(at 88.9 167.64 0)
+			(at 54.102 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +2467,7 @@
 			)
 		)
 		(property "Description" "Black Cap Tactile Switch, SPST-NO 50 mA @ 24 V dc 0.4mm"
-			(at 68.58 167.64 0)
+			(at 62.738 168.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,16 +2476,7 @@
 			)
 		)
 		(property "Digikey" "SW1278CT-ND"
-			(at 81.28 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost100" "76"
-			(at 76.2 156.21 0)
+			(at 66.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2485,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 72.39 154.94 0)
+			(at 68.58 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2494,7 @@
 			)
 		)
 		(property "Notes" "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q."
-			(at 68.58 167.64 0)
+			(at 58.928 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2503,7 @@
 			)
 		)
 		(property "LCSC" "C620349"
-			(at 68.58 167.64 0)
+			(at 56.642 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,11 +2511,11 @@
 				(hide yes)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0461"
-			(at 68.58 167.64 0)
+		(property "Cost@2500" "0.0478"
+			(at 60.452 168.148 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -2377,9 +2542,9 @@
 		)
 	)
 	(symbol
-		(lib_name "B3FS-4002P_1")
 		(lib_id "Swadge_Parts:B3FS-4002P")
-		(at 68.58 152.4 0)
+		(at 81.28 149.86 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2387,23 +2552,25 @@
 		(dnp no)
 		(uuid "b73f4ebb-ccce-49f4-ba2f-7bca7e79b195")
 		(property "Reference" "SW7"
-			(at 80.645 146.05 0)
+			(at 76.708 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "B3FS-4002P"
-			(at 80.645 148.59 0)
+			(at 73.406 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "Swadge_Parts:B3FS4002P"
-			(at 80.01 140.97 0)
+			(at 69.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2580,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_XUNPU-TS-1003S-04526_C455218.pdf"
-			(at 88.9 152.4 0)
+			(at 54.102 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2590,7 @@
 			)
 		)
 		(property "Description" "Black Cap Tactile Switch, SPST-NO 50 mA @ 24 V dc 0.4mm"
-			(at 68.58 152.4 0)
+			(at 62.738 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,16 +2599,7 @@
 			)
 		)
 		(property "Digikey" "SW1278CT-ND"
-			(at 81.28 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost100" "76"
-			(at 76.2 140.97 0)
+			(at 66.04 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2608,7 @@
 			)
 		)
 		(property "Substitutable" "Y"
-			(at 72.39 139.7 0)
+			(at 68.58 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2617,7 @@
 			)
 		)
 		(property "Notes" "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q."
-			(at 68.58 152.4 0)
+			(at 58.928 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2626,7 @@
 			)
 		)
 		(property "LCSC" "C620349"
-			(at 68.58 152.4 0)
+			(at 56.642 146.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,11 +2634,11 @@
 				(hide yes)
 			)
 		)
-		(property "Cost @ 2.5k" "0.0461"
-			(at 68.58 152.4 0)
+		(property "Cost@2500" "0.0478"
+			(at 60.452 147.828 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)

@@ -3698,9 +3698,9 @@
 		(at 246.38 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5c666b14-a552-4d66-9c82-a8444176fe63")
 		(property "Reference" "J8"
 			(at 246.38 81.28 0)
